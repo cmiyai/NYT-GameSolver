@@ -56,8 +56,15 @@ def ShannonEntropy(dist):
     # dist = np.array(dist)
     randos = np.where(dist > 0, dist * np.log2(dist) , 0)
     return -np.sum(randos)
-
 # print(ShannonEntropy([1/6, 1/6, 1/6, 1/6, 1/6, 1/6]))
+
+def top_candidates(pool_words, words_left, pattern_matrix, word_pool, limit):
+    """Ranks `pool_words` by entropy against `words_left`, returns the top `limit` as
+    [{"word": WORD, "entropy": bits}, ...] sorted highest-entropy first."""
+    scored = [(w, ShannonEntropy(pattern_probabilities(w, words_left, pattern_matrix, word_pool))) for w in pool_words]
+    scored.sort(key=lambda x: x[1], reverse=True)
+    return [{"word": str(w).upper(), "entropy": round(float(s), 2) + 0.0} for w, s in scored[:limit]]
+
 
 
 if __name__ == "__main__":
@@ -137,6 +144,6 @@ if __name__ == "__main__":
         guess_idx = np.where(word_pool == guess)[0][0]
         row_patterns = pattern_matrix[guess_idx, :]
         
-        # Keep ONLY the column indices where the pre-computed pattern matches the real game feedback
+        # Only keep the columns where the pattern matches the real game feedback
         matching_columns = np.where(row_patterns == target_pattern_id)[0]
         words_left = np.intersect1d(words_left, matching_columns)

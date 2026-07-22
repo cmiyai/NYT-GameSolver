@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-15",
+  "wordle": {
+    "date": "2026-07-15",
+    "answer": "SMORE",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 2317,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.95,
+        "remainingWords": 7,
+        "eliminatedPercentage": 99.7,
+        "topCandidates": [
+          {
+            "word": "SHIRE",
+            "entropy": 1.66
+          },
+          {
+            "word": "SHORE",
+            "entropy": 1.66
+          },
+          {
+            "word": "SPIRE",
+            "entropy": 1.66
+          },
+          {
+            "word": "SPORE",
+            "entropy": 1.66
+          },
+          {
+            "word": "SCORE",
+            "entropy": 1.38
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PINCH",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.81,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "SWORE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SWORE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

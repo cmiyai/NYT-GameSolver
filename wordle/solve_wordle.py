@@ -9,8 +9,10 @@ now = datetime.now()
 yester = now - timedelta(days=5)
 yesterday = yester.strftime("%Y-%m-%d")
 today = now.strftime("%Y-%m-%d")
-
-url = f"https://www.nytimes.com/svc/wordle/v2/{today}.json"
+tmrw = now + timedelta(days=1)
+tmrw_date = tmrw.strftime("%Y-%m-%d") 
+# run the wordle one day ahead so we can scan ahead of frontend
+url = f"https://www.nytimes.com/svc/wordle/v2/{tmrw_date}.json"
 
 req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
 

@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-09",
+  "wordle": {
+    "date": "2026-07-09",
+    "answer": "AMEND",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 61,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "MEDAL",
+            "entropy": 4.6
+          },
+          {
+            "word": "PENAL",
+            "entropy": 4.51
+          },
+          {
+            "word": "DECAL",
+            "entropy": 4.5
+          },
+          {
+            "word": "PEDAL",
+            "entropy": 4.5
+          },
+          {
+            "word": "DELAY",
+            "entropy": 4.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MEDAL",
+        "result": [
+          {
+            "letter": "M",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.6,
+        "remainingWords": 3,
+        "eliminatedPercentage": 95.1,
+        "topCandidates": [
+          {
+            "word": "AMEND",
+            "entropy": 1.58
+          },
+          {
+            "word": "AMPED",
+            "entropy": 1.58
+          },
+          {
+            "word": "EDEMA",
+            "entropy": 1.58
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "AMEND",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "AMEND",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

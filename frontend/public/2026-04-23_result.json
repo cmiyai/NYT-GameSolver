@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-23",
+  "wordle": {
+    "date": "2026-04-23",
+    "answer": "TWEET",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 18,
+        "eliminatedPercentage": 99.5,
+        "topCandidates": [
+          {
+            "word": "TENET",
+            "entropy": 3.61
+          },
+          {
+            "word": "TEETH",
+            "entropy": 3.5
+          },
+          {
+            "word": "TWEET",
+            "entropy": 3.5
+          },
+          {
+            "word": "TEENY",
+            "entropy": 3.42
+          },
+          {
+            "word": "TWEEN",
+            "entropy": 3.3
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MENED",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.95,
+        "remainingWords": 1,
+        "eliminatedPercentage": 94.4,
+        "topCandidates": [
+          {
+            "word": "TWEET",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TWEET",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TWEET",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-15",
+  "wordle": {
+    "date": "2026-05-15",
+    "answer": "CREED",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 153,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "RIDER",
+            "entropy": 4.27
+          },
+          {
+            "word": "DINER",
+            "entropy": 4.25
+          },
+          {
+            "word": "DRIER",
+            "entropy": 4.2
+          },
+          {
+            "word": "CIDER",
+            "entropy": 4.17
+          },
+          {
+            "word": "RILED",
+            "entropy": 4.15
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.38,
+        "remainingWords": 8,
+        "eliminatedPercentage": 94.8,
+        "topCandidates": [
+          {
+            "word": "BREED",
+            "entropy": 2.16
+          },
+          {
+            "word": "CREED",
+            "entropy": 2.16
+          },
+          {
+            "word": "FREED",
+            "entropy": 2.16
+          },
+          {
+            "word": "GREED",
+            "entropy": 2.16
+          },
+          {
+            "word": "REDDY",
+            "entropy": 2.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FUDGY",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.75,
+        "remainingWords": 2,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "BREED",
+            "entropy": 1.0
+          },
+          {
+            "word": "CREED",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BREED",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "CREED",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "CREED",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "CREED",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

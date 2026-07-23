@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-09",
+  "wordle": {
+    "date": "2026-05-09",
+    "answer": "SATIN",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 15,
+        "eliminatedPercentage": 99.6,
+        "topCandidates": [
+          {
+            "word": "NASTY",
+            "entropy": 2.84
+          },
+          {
+            "word": "HASTY",
+            "entropy": 2.82
+          },
+          {
+            "word": "PASTY",
+            "entropy": 2.82
+          },
+          {
+            "word": "PANTS",
+            "entropy": 2.73
+          },
+          {
+            "word": "HASTA",
+            "entropy": 2.61
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "SHINY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.37,
+        "remainingWords": 1,
+        "eliminatedPercentage": 93.3,
+        "topCandidates": [
+          {
+            "word": "SATIN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SATIN",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SATIN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

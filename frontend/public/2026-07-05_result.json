@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-05",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-07-05",
+    "answer": "SWAMI",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -73,7 +73,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
             "letter": "N",
@@ -85,37 +85,37 @@
           }
         ],
         "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "remainingWords": 6,
+        "eliminatedPercentage": 91.2,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "SHADY",
+            "entropy": 1.92
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "SHAKY",
+            "entropy": 1.92
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "SWAMP",
+            "entropy": 1.92
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "SOAPY",
+            "entropy": 1.79
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "SWAMI",
+            "entropy": 1.46
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "DAMPY",
         "result": [
           {
-            "letter": "B",
+            "letter": "D",
             "status": "absent"
           },
           {
@@ -123,42 +123,38 @@
             "status": "present"
           },
           {
-            "letter": "G",
+            "letter": "M",
+            "status": "present"
+          },
+          {
+            "letter": "P",
             "status": "absent"
           },
           {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
+            "letter": "Y",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 2.58,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 83.3,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "SWAMI",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "SWAMI",
         "result": [
-          {
-            "letter": "P",
-            "status": "correct"
-          },
           {
             "letter": "S",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "W",
             "status": "correct"
           },
           {
@@ -166,7 +162,11 @@
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "SWAMI",
             "entropy": 0.0
           }
         ]

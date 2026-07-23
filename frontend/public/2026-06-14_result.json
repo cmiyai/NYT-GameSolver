@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-14",
+  "wordle": {
+    "date": "2026-06-14",
+    "answer": "SEPIA",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 18,
+        "eliminatedPercentage": 99.5,
+        "topCandidates": [
+          {
+            "word": "SEDAN",
+            "entropy": 3.28
+          },
+          {
+            "word": "SEAMS",
+            "entropy": 3.16
+          },
+          {
+            "word": "DEGAS",
+            "entropy": 3.11
+          },
+          {
+            "word": "ASPEN",
+            "entropy": 3.09
+          },
+          {
+            "word": "SNEAK",
+            "entropy": 3.08
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "SEANS",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.68,
+        "remainingWords": 1,
+        "eliminatedPercentage": 94.4,
+        "topCandidates": [
+          {
+            "word": "SEPIA",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SEPIA",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SEPIA",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

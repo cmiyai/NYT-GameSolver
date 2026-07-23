@@ -1,0 +1,138 @@
+{
+  "date": "2026-05-29",
+  "wordle": {
+    "date": "2026-05-29",
+    "answer": "CLANG",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 150,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "LIANA",
+            "entropy": 5.2
+          },
+          {
+            "word": "PLAIN",
+            "entropy": 4.99
+          },
+          {
+            "word": "ALONG",
+            "entropy": 4.97
+          },
+          {
+            "word": "ALIGN",
+            "entropy": 4.93
+          },
+          {
+            "word": "ALAMO",
+            "entropy": 4.92
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.52,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.7,
+        "topCandidates": [
+          {
+            "word": "CLANG",
+            "entropy": 1.0
+          },
+          {
+            "word": "CLANK",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CLANG",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "CLANG",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

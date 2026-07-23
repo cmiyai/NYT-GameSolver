@@ -1,0 +1,228 @@
+{
+  "date": "2026-05-13",
+  "wordle": {
+    "date": "2026-05-13",
+    "answer": "DOWDY",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 352,
+        "eliminatedPercentage": 89.9,
+        "topCandidates": [
+          {
+            "word": "COLIN",
+            "entropy": 5.7
+          },
+          {
+            "word": "COULD",
+            "entropy": 5.46
+          },
+          {
+            "word": "DOILY",
+            "entropy": 5.46
+          },
+          {
+            "word": "LINDY",
+            "entropy": 5.38
+          },
+          {
+            "word": "LINGO",
+            "entropy": 5.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.7,
+        "remainingWords": 26,
+        "eliminatedPercentage": 92.6,
+        "topCandidates": [
+          {
+            "word": "GOODY",
+            "entropy": 3.32
+          },
+          {
+            "word": "DOUGH",
+            "entropy": 3.13
+          },
+          {
+            "word": "DOOZY",
+            "entropy": 3.09
+          },
+          {
+            "word": "DOODY",
+            "entropy": 3.09
+          },
+          {
+            "word": "WOODY",
+            "entropy": 3.06
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DHOBI",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.69,
+        "remainingWords": 3,
+        "eliminatedPercentage": 88.5,
+        "topCandidates": [
+          {
+            "word": "DODGY",
+            "entropy": 1.58
+          },
+          {
+            "word": "DOGGY",
+            "entropy": 1.58
+          },
+          {
+            "word": "DOWDY",
+            "entropy": 1.58
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "DODGY",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "DOWDY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "DOWDY",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "DOWDY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

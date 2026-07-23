@@ -1,0 +1,228 @@
+{
+  "date": "2026-05-14",
+  "wordle": {
+    "date": "2026-05-14",
+    "answer": "WAVER",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 28,
+        "eliminatedPercentage": 99.2,
+        "topCandidates": [
+          {
+            "word": "LAGER",
+            "entropy": 2.56
+          },
+          {
+            "word": "PAGER",
+            "entropy": 2.47
+          },
+          {
+            "word": "PALER",
+            "entropy": 2.35
+          },
+          {
+            "word": "LAKER",
+            "entropy": 2.23
+          },
+          {
+            "word": "RAGER",
+            "entropy": 2.15
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PYGAL",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.06,
+        "remainingWords": 11,
+        "eliminatedPercentage": 60.7,
+        "topCandidates": [
+          {
+            "word": "FAKER",
+            "entropy": 2.41
+          },
+          {
+            "word": "MAKER",
+            "entropy": 2.37
+          },
+          {
+            "word": "BAKER",
+            "entropy": 2.12
+          },
+          {
+            "word": "RAKED",
+            "entropy": 2.12
+          },
+          {
+            "word": "RAMEN",
+            "entropy": 2.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FNARR",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.48,
+        "remainingWords": 3,
+        "eliminatedPercentage": 72.7,
+        "topCandidates": [
+          {
+            "word": "BAKER",
+            "entropy": 1.58
+          },
+          {
+            "word": "MAKER",
+            "entropy": 1.58
+          },
+          {
+            "word": "WAVER",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BAKER",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "WAVER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "WAVER",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WAVER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

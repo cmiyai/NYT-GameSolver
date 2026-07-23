@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-10",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-10",
+    "answer": "PARKA",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,15 +18,15 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
             "letter": "R",
-            "status": "absent"
+            "status": "correct"
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
@@ -34,85 +34,77 @@
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 31,
+        "eliminatedPercentage": 99.1,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "CAROM",
+            "entropy": 3.19
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "MARCH",
+            "entropy": 2.94
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "BARCA",
+            "entropy": 2.83
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "BARMY",
+            "entropy": 2.78
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "CAROL",
+            "entropy": 2.76
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "CYMOL",
         "result": [
           {
             "letter": "C",
             "status": "absent"
           },
           {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
             "letter": "L",
             "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 3.97,
+        "remainingWords": 3,
+        "eliminatedPercentage": 90.3,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "BARRA",
+            "entropy": 1.58
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "PARKA",
+            "entropy": 1.58
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "AARGH",
+            "entropy": 0.92
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "BARRA",
         "result": [
           {
             "letter": "B",
@@ -120,45 +112,37 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
-            "letter": "G",
-            "status": "absent"
+            "letter": "R",
+            "status": "correct"
           },
           {
-            "letter": "U",
+            "letter": "R",
             "status": "absent"
           },
           {
             "letter": "A",
-            "status": "absent"
+            "status": "correct"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 1.58,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 66.7,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "PARKA",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "PARKA",
         "result": [
           {
             "letter": "P",
-            "status": "correct"
-          },
-          {
-            "letter": "S",
-            "status": "correct"
-          },
-          {
-            "letter": "H",
             "status": "correct"
           },
           {
@@ -166,7 +150,15 @@
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
             "status": "correct"
           }
         ],
@@ -175,7 +167,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "PARKA",
             "entropy": 0.0
           }
         ]

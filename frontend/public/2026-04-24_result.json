@@ -1,0 +1,138 @@
+{
+  "date": "2026-04-24",
+  "wordle": {
+    "date": "2026-04-24",
+    "answer": "DRUNK",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 113,
+        "eliminatedPercentage": 96.8,
+        "topCandidates": [
+          {
+            "word": "GROIN",
+            "entropy": 4.77
+          },
+          {
+            "word": "CROON",
+            "entropy": 4.7
+          },
+          {
+            "word": "GRIND",
+            "entropy": 4.69
+          },
+          {
+            "word": "CRONY",
+            "entropy": 4.65
+          },
+          {
+            "word": "CROWD",
+            "entropy": 4.59
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COIGN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.93,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.2,
+        "topCandidates": [
+          {
+            "word": "DRUNK",
+            "entropy": 1.0
+          },
+          {
+            "word": "RUNNY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DRUNK",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "DRUNK",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

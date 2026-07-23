@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-07",
+  "wordle": {
+    "date": "2026-07-07",
+    "answer": "SLING",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 175,
+        "eliminatedPercentage": 95.0,
+        "topCandidates": [
+          {
+            "word": "COILS",
+            "entropy": 5.26
+          },
+          {
+            "word": "LOINS",
+            "entropy": 5.22
+          },
+          {
+            "word": "KILOS",
+            "entropy": 5.2
+          },
+          {
+            "word": "SPOIL",
+            "entropy": 5.09
+          },
+          {
+            "word": "SCION",
+            "entropy": 5.06
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "LIONS",
+        "result": [
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.28,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "SLING",
+            "entropy": 1.0
+          },
+          {
+            "word": "SLINK",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SLING",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "SLING",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

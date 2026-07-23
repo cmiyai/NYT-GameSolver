@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-20",
+  "wordle": {
+    "date": "2026-06-20",
+    "answer": "DRAKE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 23,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "GRACE",
+            "entropy": 2.91
+          },
+          {
+            "word": "BRACE",
+            "entropy": 2.82
+          },
+          {
+            "word": "GRADE",
+            "entropy": 2.82
+          },
+          {
+            "word": "CRAZE",
+            "entropy": 2.75
+          },
+          {
+            "word": "GRAZE",
+            "entropy": 2.72
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DRACK",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.17,
+        "remainingWords": 1,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "DRAKE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DRAKE",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "DRAKE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2026-05-21",
+  "wordle": {
+    "date": "2026-05-21",
+    "answer": "AGREE",
+    "totalTurns": 2,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 1,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": [
+          {
+            "word": "AGREE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "AGREE",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "AGREE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

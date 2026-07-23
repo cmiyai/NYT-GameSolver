@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-26",
+  "wordle": {
+    "date": "2026-06-26",
+    "answer": "ACUTE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 7,
+        "eliminatedPercentage": 99.8,
+        "topCandidates": [
+          {
+            "word": "ABATE",
+            "entropy": 2.13
+          },
+          {
+            "word": "AGATE",
+            "entropy": 2.13
+          },
+          {
+            "word": "ELATE",
+            "entropy": 2.13
+          },
+          {
+            "word": "PLATE",
+            "entropy": 2.13
+          },
+          {
+            "word": "ACUTE",
+            "entropy": 1.84
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "ABOMA",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.52,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "ACUTE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "ACUTE",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "ACUTE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

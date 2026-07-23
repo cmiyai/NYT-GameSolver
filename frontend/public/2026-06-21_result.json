@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-21",
+  "wordle": {
+    "date": "2026-06-21",
+    "answer": "ALIBI",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 150,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "LIANA",
+            "entropy": 5.2
+          },
+          {
+            "word": "PLAIN",
+            "entropy": 4.99
+          },
+          {
+            "word": "ALONG",
+            "entropy": 4.97
+          },
+          {
+            "word": "ALIGN",
+            "entropy": 4.93
+          },
+          {
+            "word": "ALAMO",
+            "entropy": 4.92
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.52,
+        "remainingWords": 3,
+        "eliminatedPercentage": 98.0,
+        "topCandidates": [
+          {
+            "word": "ALIBI",
+            "entropy": 1.58
+          },
+          {
+            "word": "AXIAL",
+            "entropy": 1.58
+          },
+          {
+            "word": "ILIAD",
+            "entropy": 1.58
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "ALIBI",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "ALIBI",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

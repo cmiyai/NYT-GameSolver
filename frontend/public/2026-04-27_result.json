@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-27",
+  "wordle": {
+    "date": "2026-04-27",
+    "answer": "EERIE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 21,
+        "eliminatedPercentage": 99.4,
+        "topCandidates": [
+          {
+            "word": "VERGE",
+            "entropy": 2.89
+          },
+          {
+            "word": "MERGE",
+            "entropy": 2.62
+          },
+          {
+            "word": "NERVE",
+            "entropy": 2.48
+          },
+          {
+            "word": "VIRGE",
+            "entropy": 2.46
+          },
+          {
+            "word": "MERDE",
+            "entropy": 2.39
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "GUIDO",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.46,
+        "remainingWords": 1,
+        "eliminatedPercentage": 95.2,
+        "topCandidates": [
+          {
+            "word": "EERIE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "EERIE",
+        "result": [
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "EERIE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

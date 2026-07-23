@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-02",
+  "wordle": {
+    "date": "2026-06-02",
+    "answer": "BASIS",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 43,
+        "eliminatedPercentage": 98.8,
+        "topCandidates": [
+          {
+            "word": "SAVIN",
+            "entropy": 3.44
+          },
+          {
+            "word": "SALON",
+            "entropy": 3.33
+          },
+          {
+            "word": "MAVIS",
+            "entropy": 3.33
+          },
+          {
+            "word": "OASIS",
+            "entropy": 3.27
+          },
+          {
+            "word": "MANOS",
+            "entropy": 3.2
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "LIMNS",
+        "result": [
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.08,
+        "remainingWords": 2,
+        "eliminatedPercentage": 95.3,
+        "topCandidates": [
+          {
+            "word": "BASIS",
+            "entropy": 1.0
+          },
+          {
+            "word": "OASIS",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BASIS",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "BASIS",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

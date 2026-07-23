@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-10",
+  "wordle": {
+    "date": "2026-06-10",
+    "answer": "ALIGN",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 150,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "LIANA",
+            "entropy": 5.2
+          },
+          {
+            "word": "PLAIN",
+            "entropy": 4.99
+          },
+          {
+            "word": "ALONG",
+            "entropy": 4.97
+          },
+          {
+            "word": "ALIGN",
+            "entropy": 4.93
+          },
+          {
+            "word": "ALAMO",
+            "entropy": 4.92
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.52,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "ALIGN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "ALIGN",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "ALIGN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

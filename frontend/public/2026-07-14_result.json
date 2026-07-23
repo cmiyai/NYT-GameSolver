@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-14",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-07-14",
+    "answer": "STEAK",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -14,7 +14,7 @@
         "result": [
           {
             "letter": "T",
-            "status": "absent"
+            "status": "present"
           },
           {
             "letter": "A",
@@ -30,135 +30,123 @@
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "present"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 8,
+        "eliminatedPercentage": 99.8,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "STEAD",
+            "entropy": 1.81
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "STEAK",
+            "entropy": 1.81
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "STEAL",
+            "entropy": 1.81
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "STEAM",
+            "entropy": 1.81
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "SWEAT",
+            "entropy": 1.75
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "SMALT",
         "result": [
           {
-            "letter": "C",
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
             "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
           },
           {
             "letter": "L",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
+            "letter": "T",
             "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 2.75,
+        "remainingWords": 2,
+        "eliminatedPercentage": 75.0,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "STEAD",
+            "entropy": 1.0
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
-          },
-          {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "STEAK",
+            "entropy": 1.0
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "STEAD",
         "result": [
           {
-            "letter": "B",
-            "status": "absent"
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
+            "letter": "D",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 1.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 50.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "STEAK",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "STEAK",
         "result": [
-          {
-            "letter": "P",
-            "status": "correct"
-          },
           {
             "letter": "S",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
             "status": "correct"
           },
           {
@@ -166,7 +154,7 @@
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "K",
             "status": "correct"
           }
         ],
@@ -175,7 +163,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "STEAK",
             "entropy": 0.0
           }
         ]

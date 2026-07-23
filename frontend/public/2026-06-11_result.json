@@ -1,0 +1,126 @@
+{
+  "date": "2026-06-11",
+  "wordle": {
+    "date": "2026-06-11",
+    "answer": "TESTY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 3,
+        "eliminatedPercentage": 99.9,
+        "topCandidates": [
+          {
+            "word": "TEMPS",
+            "entropy": 1.58
+          },
+          {
+            "word": "TESTY",
+            "entropy": 1.58
+          },
+          {
+            "word": "TOTES",
+            "entropy": 1.58
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "TEMPS",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "TESTY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TESTY",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TESTY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

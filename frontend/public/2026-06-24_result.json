@@ -1,0 +1,224 @@
+{
+  "date": "2026-06-24",
+  "wordle": {
+    "date": "2026-06-24",
+    "answer": "QUEER",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 153,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "RIDER",
+            "entropy": 4.27
+          },
+          {
+            "word": "DINER",
+            "entropy": 4.25
+          },
+          {
+            "word": "DRIER",
+            "entropy": 4.2
+          },
+          {
+            "word": "CIDER",
+            "entropy": 4.17
+          },
+          {
+            "word": "RILED",
+            "entropy": 4.15
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.38,
+        "remainingWords": 23,
+        "eliminatedPercentage": 85.0,
+        "topCandidates": [
+          {
+            "word": "CREEP",
+            "entropy": 3.76
+          },
+          {
+            "word": "CREEK",
+            "entropy": 3.73
+          },
+          {
+            "word": "FREER",
+            "entropy": 3.62
+          },
+          {
+            "word": "CRYER",
+            "entropy": 3.56
+          },
+          {
+            "word": "FEVER",
+            "entropy": 3.52
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BREER",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 3.8,
+        "remainingWords": 2,
+        "eliminatedPercentage": 91.3,
+        "topCandidates": [
+          {
+            "word": "CHEER",
+            "entropy": 1.0
+          },
+          {
+            "word": "QUEER",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "CHEER",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "QUEER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "QUEER",
+        "result": [
+          {
+            "letter": "Q",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "QUEER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

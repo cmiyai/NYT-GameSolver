@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-22",
+  "wordle": {
+    "date": "2026-04-22",
+    "answer": "SNORE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 9,
+        "eliminatedPercentage": 99.7,
+        "topCandidates": [
+          {
+            "word": "SHORE",
+            "entropy": 1.84
+          },
+          {
+            "word": "SCORE",
+            "entropy": 1.75
+          },
+          {
+            "word": "SPORE",
+            "entropy": 1.75
+          },
+          {
+            "word": "SHIRE",
+            "entropy": 1.66
+          },
+          {
+            "word": "SPIRE",
+            "entropy": 1.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHINO",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 2.95,
+        "remainingWords": 1,
+        "eliminatedPercentage": 88.9,
+        "topCandidates": [
+          {
+            "word": "SNORE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SNORE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SNORE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

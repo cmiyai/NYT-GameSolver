@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-06-06",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-06-06",
+    "answer": "MORPH",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,15 +18,15 @@
           },
           {
             "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "R",
             "status": "absent"
           },
           {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
@@ -34,96 +34,37 @@
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 37,
+        "eliminatedPercentage": 98.9,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "CURLY",
+            "entropy": 3.82
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "CURRY",
+            "entropy": 3.79
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "LORRY",
+            "entropy": 3.65
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "CORKY",
+            "entropy": 3.62
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "CORNY",
+            "entropy": 3.58
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "LUCKY",
         "result": [
-          {
-            "letter": "C",
-            "status": "absent"
-          },
           {
             "letter": "L",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
-          }
-        ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
-        "topCandidates": [
-          {
-            "word": "SIMBA",
-            "entropy": 2.73
-          },
-          {
-            "word": "SQUAB",
-            "entropy": 2.5
-          },
-          {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
-          }
-        ]
-      },
-      {
-        "turn": 3,
-        "guess": "BAGUA",
-        "result": [
-          {
-            "letter": "B",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
             "status": "absent"
           },
           {
@@ -131,42 +72,101 @@
             "status": "absent"
           },
           {
-            "letter": "A",
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
-        "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "entropyBits": 4.23,
+        "remainingWords": 5,
+        "eliminatedPercentage": 86.5,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "FORGO",
+            "entropy": 1.92
+          },
+          {
+            "word": "MORON",
+            "entropy": 1.92
+          },
+          {
+            "word": "MORPH",
+            "entropy": 1.92
+          },
+          {
+            "word": "PORNO",
+            "entropy": 1.92
+          },
+          {
+            "word": "ZORRO",
+            "entropy": 1.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FORGO",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 1.92,
+        "remainingWords": 1,
+        "eliminatedPercentage": 80.0,
+        "topCandidates": [
+          {
+            "word": "MORPH",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "MORPH",
         "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
           {
             "letter": "P",
             "status": "correct"
           },
           {
-            "letter": "S",
-            "status": "correct"
-          },
-          {
             "letter": "H",
-            "status": "correct"
-          },
-          {
-            "letter": "A",
-            "status": "correct"
-          },
-          {
-            "letter": "W",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "MORPH",
             "entropy": 0.0
           }
         ]

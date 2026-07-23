@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-20",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-20",
+    "answer": "WRECK",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,53 +18,61 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
             "status": "present"
           },
           {
-            "letter": "E",
+            "letter": "S",
             "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 153,
+        "eliminatedPercentage": 95.6,
         "topCandidates": [
           {
-            "word": "CLAMS",
+            "word": "RIDER",
+            "entropy": 4.27
+          },
+          {
+            "word": "DINER",
             "entropy": 4.25
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "DRIER",
+            "entropy": 4.2
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "CIDER",
+            "entropy": 4.17
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
-          },
-          {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "RILED",
+            "entropy": 4.15
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DINLO",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
             "status": "absent"
           },
           {
@@ -72,101 +80,93 @@
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
+            "letter": "O",
             "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 4.38,
+        "remainingWords": 23,
+        "eliminatedPercentage": 85.0,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "CREEP",
+            "entropy": 3.76
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "CREEK",
+            "entropy": 3.73
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "FREER",
+            "entropy": 3.62
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "CRYER",
+            "entropy": 3.56
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "FEVER",
+            "entropy": 3.52
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "BREER",
         "result": [
           {
             "letter": "B",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
+            "letter": "R",
+            "status": "correct"
           },
           {
-            "letter": "G",
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
             "status": "absent"
           },
           {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
+            "letter": "R",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 3.8,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 95.7,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "WRECK",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "WRECK",
         "result": [
           {
-            "letter": "P",
-            "status": "correct"
-          },
-          {
-            "letter": "S",
-            "status": "correct"
-          },
-          {
-            "letter": "H",
-            "status": "correct"
-          },
-          {
-            "letter": "A",
-            "status": "correct"
-          },
-          {
             "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "WRECK",
             "entropy": 0.0
           }
         ]

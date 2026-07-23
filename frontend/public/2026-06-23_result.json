@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-23",
+  "wordle": {
+    "date": "2026-06-23",
+    "answer": "CURRY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 37,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "CURLY",
+            "entropy": 3.82
+          },
+          {
+            "word": "CURRY",
+            "entropy": 3.79
+          },
+          {
+            "word": "LORRY",
+            "entropy": 3.65
+          },
+          {
+            "word": "CORKY",
+            "entropy": 3.62
+          },
+          {
+            "word": "CORNY",
+            "entropy": 3.58
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "LUCKY",
+        "result": [
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.23,
+        "remainingWords": 2,
+        "eliminatedPercentage": 94.6,
+        "topCandidates": [
+          {
+            "word": "CURRY",
+            "entropy": 1.0
+          },
+          {
+            "word": "CURVY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CURRY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "CURRY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

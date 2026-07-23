@@ -1,0 +1,146 @@
+{
+  "date": "2026-05-23",
+  "wordle": {
+    "date": "2026-05-23",
+    "answer": "CHUCK",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 352,
+        "eliminatedPercentage": 89.9,
+        "topCandidates": [
+          {
+            "word": "COLIN",
+            "entropy": 5.7
+          },
+          {
+            "word": "COULD",
+            "entropy": 5.46
+          },
+          {
+            "word": "DOILY",
+            "entropy": 5.46
+          },
+          {
+            "word": "LINDY",
+            "entropy": 5.38
+          },
+          {
+            "word": "LINGO",
+            "entropy": 5.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.7,
+        "remainingWords": 4,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "CHUCK",
+            "entropy": 1.5
+          },
+          {
+            "word": "CHUMP",
+            "entropy": 1.5
+          },
+          {
+            "word": "CUBBY",
+            "entropy": 1.5
+          },
+          {
+            "word": "CUDDY",
+            "entropy": 1.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CHUCK",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.5,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "CHUCK",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

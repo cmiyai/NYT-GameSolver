@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-20",
+  "wordle": {
+    "date": "2026-07-20",
+    "answer": "DIVER",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 153,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "RIDER",
+            "entropy": 4.27
+          },
+          {
+            "word": "DINER",
+            "entropy": 4.25
+          },
+          {
+            "word": "DRIER",
+            "entropy": 4.2
+          },
+          {
+            "word": "CIDER",
+            "entropy": 4.17
+          },
+          {
+            "word": "RILED",
+            "entropy": 4.15
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.38,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "DIVER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DIVER",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "DIVER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

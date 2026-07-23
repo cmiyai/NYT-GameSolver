@@ -1,0 +1,279 @@
+{
+  "date": "2026-07-13",
+  "wordle": {
+    "date": "2026-07-13",
+    "answer": "STOUT",
+    "totalTurns": 6,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 70,
+        "eliminatedPercentage": 98.0,
+        "topCandidates": [
+          {
+            "word": "STOUT",
+            "entropy": 4.26
+          },
+          {
+            "word": "SHOUT",
+            "entropy": 4.2
+          },
+          {
+            "word": "SCOUT",
+            "entropy": 4.12
+          },
+          {
+            "word": "SNOUT",
+            "entropy": 4.11
+          },
+          {
+            "word": "SOUTH",
+            "entropy": 4.1
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MOULT",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "U",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.32,
+        "remainingWords": 5,
+        "eliminatedPercentage": 92.9,
+        "topCandidates": [
+          {
+            "word": "SCOUT",
+            "entropy": 0.72
+          },
+          {
+            "word": "SHOUT",
+            "entropy": 0.72
+          },
+          {
+            "word": "SNOUT",
+            "entropy": 0.72
+          },
+          {
+            "word": "SPOUT",
+            "entropy": 0.72
+          },
+          {
+            "word": "STOUT",
+            "entropy": 0.72
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SCOUT",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.72,
+        "remainingWords": 4,
+        "eliminatedPercentage": 20.0,
+        "topCandidates": [
+          {
+            "word": "SHOUT",
+            "entropy": 0.81
+          },
+          {
+            "word": "SNOUT",
+            "entropy": 0.81
+          },
+          {
+            "word": "SPOUT",
+            "entropy": 0.81
+          },
+          {
+            "word": "STOUT",
+            "entropy": 0.81
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SHOUT",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.81,
+        "remainingWords": 3,
+        "eliminatedPercentage": 25.0,
+        "topCandidates": [
+          {
+            "word": "SNOUT",
+            "entropy": 0.92
+          },
+          {
+            "word": "SPOUT",
+            "entropy": 0.92
+          },
+          {
+            "word": "STOUT",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "SNOUT",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 33.3,
+        "topCandidates": [
+          {
+            "word": "SPOUT",
+            "entropy": 1.0
+          },
+          {
+            "word": "STOUT",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 6,
+        "guess": "SPOUT",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "STOUT",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

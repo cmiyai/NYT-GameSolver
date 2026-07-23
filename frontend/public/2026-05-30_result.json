@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-30",
+  "wordle": {
+    "date": "2026-05-30",
+    "answer": "SMILE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 33,
+        "eliminatedPercentage": 99.1,
+        "topCandidates": [
+          {
+            "word": "SNIPE",
+            "entropy": 3.61
+          },
+          {
+            "word": "SPINE",
+            "entropy": 3.61
+          },
+          {
+            "word": "SEINE",
+            "entropy": 3.53
+          },
+          {
+            "word": "SPICE",
+            "entropy": 3.3
+          },
+          {
+            "word": "SNIDE",
+            "entropy": 3.29
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CLINK",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.11,
+        "remainingWords": 1,
+        "eliminatedPercentage": 97.0,
+        "topCandidates": [
+          {
+            "word": "SMILE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SMILE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SMILE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

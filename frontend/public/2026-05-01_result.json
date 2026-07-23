@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-01",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-01",
+    "answer": "PLUME",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,7 +18,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
@@ -26,147 +26,147 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "correct"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "OLDIE",
+            "entropy": 4.64
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "LOUIE",
+            "entropy": 4.57
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "GUILE",
+            "entropy": 4.47
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "ELIDE",
+            "entropy": 4.4
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "GLIDE",
+            "entropy": 4.39
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DINLO",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
             "status": "absent"
           },
           {
-            "letter": "L",
+            "letter": "I",
             "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
           },
           {
             "letter": "N",
             "status": "absent"
           },
           {
-            "letter": "S",
+            "letter": "L",
             "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
           }
         ],
-        "entropyBits": 4.25,
+        "entropyBits": 5.29,
         "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "eliminatedPercentage": 92.7,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "BLUME",
+            "entropy": 2.95
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "FLUME",
+            "entropy": 2.95
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "PLUME",
+            "entropy": 2.95
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "MELEE",
+            "entropy": 2.64
           },
           {
-            "word": "SIGMA",
+            "word": "FLUKE",
             "entropy": 2.42
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "FLUMP",
         "result": [
           {
-            "letter": "B",
+            "letter": "F",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
-            "status": "absent"
+            "letter": "L",
+            "status": "correct"
           },
           {
             "letter": "U",
-            "status": "absent"
+            "status": "correct"
           },
           {
-            "letter": "A",
-            "status": "absent"
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "present"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 3.17,
         "remainingWords": 1,
         "eliminatedPercentage": 88.9,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "PLUME",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "PLUME",
         "result": [
           {
             "letter": "P",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "L",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "U",
             "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "M",
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "E",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "PLUME",
             "entropy": 0.0
           }
         ]

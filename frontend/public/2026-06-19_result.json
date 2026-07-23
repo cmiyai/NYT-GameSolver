@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-06-19",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-06-19",
+    "answer": "EMOJI",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,7 +18,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
@@ -26,147 +26,147 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "present"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 178,
+        "eliminatedPercentage": 94.9,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "OLDEN",
+            "entropy": 5.07
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "MELON",
+            "entropy": 4.87
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "NEEDY",
+            "entropy": 4.85
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "YODEL",
+            "entropy": 4.84
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "BONEY",
+            "entropy": 4.83
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DYNEL",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
             "status": "absent"
           },
           {
-            "letter": "L",
+            "letter": "Y",
             "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
           },
           {
             "letter": "N",
             "status": "absent"
           },
           {
-            "letter": "S",
+            "letter": "E",
             "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 5.14,
+        "remainingWords": 10,
+        "eliminatedPercentage": 94.4,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "CHEMO",
+            "entropy": 3.32
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "EPOCH",
+            "entropy": 3.32
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "GECKO",
+            "entropy": 3.12
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "BEBOP",
+            "entropy": 2.92
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "BEECH",
+            "entropy": 2.92
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "AIYOH",
         "result": [
           {
-            "letter": "B",
+            "letter": "A",
             "status": "absent"
           },
           {
-            "letter": "A",
+            "letter": "I",
             "status": "present"
           },
           {
-            "letter": "G",
+            "letter": "Y",
             "status": "absent"
           },
           {
-            "letter": "U",
-            "status": "absent"
+            "letter": "O",
+            "status": "present"
           },
           {
-            "letter": "A",
+            "letter": "H",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 3.32,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 90.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "EMOJI",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "EMOJI",
         "result": [
           {
-            "letter": "P",
+            "letter": "E",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "M",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "O",
             "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "J",
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "I",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "EMOJI",
             "entropy": 0.0
           }
         ]

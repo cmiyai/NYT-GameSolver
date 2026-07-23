@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-18",
+  "wordle": {
+    "date": "2026-04-18",
+    "answer": "TOADY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 14,
+        "eliminatedPercentage": 99.6,
+        "topCandidates": [
+          {
+            "word": "TONAL",
+            "entropy": 2.95
+          },
+          {
+            "word": "TWAIN",
+            "entropy": 2.95
+          },
+          {
+            "word": "TIDAL",
+            "entropy": 2.9
+          },
+          {
+            "word": "TITAN",
+            "entropy": 2.9
+          },
+          {
+            "word": "TONGA",
+            "entropy": 2.61
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOGAN",
+        "result": [
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.52,
+        "remainingWords": 1,
+        "eliminatedPercentage": 92.9,
+        "topCandidates": [
+          {
+            "word": "TOADY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TOADY",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TOADY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

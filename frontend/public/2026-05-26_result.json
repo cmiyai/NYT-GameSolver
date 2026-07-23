@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-26",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-26",
+    "answer": "COUCH",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,7 +18,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
@@ -26,7 +26,7 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
@@ -34,139 +34,139 @@
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 352,
+        "eliminatedPercentage": 89.9,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "COLIN",
+            "entropy": 5.7
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "COULD",
+            "entropy": 5.46
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "DOILY",
+            "entropy": 5.46
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "LINDY",
+            "entropy": 5.38
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "LINGO",
+            "entropy": 5.37
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "COLIN",
         "result": [
           {
             "letter": "C",
-            "status": "absent"
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
           },
           {
             "letter": "L",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
+            "letter": "I",
+            "status": "absent"
           },
           {
             "letter": "N",
             "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 5.7,
+        "remainingWords": 6,
+        "eliminatedPercentage": 98.3,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "COOCH",
+            "entropy": 2.58
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "COUCH",
+            "entropy": 2.25
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "COCKY",
+            "entropy": 1.92
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "COMBO",
+            "entropy": 1.79
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "COMFY",
+            "entropy": 1.79
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "BRUCK",
         "result": [
           {
             "letter": "B",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
+            "letter": "R",
             "status": "absent"
           },
           {
             "letter": "U",
-            "status": "absent"
+            "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 2.58,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 83.3,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "COUCH",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "COUCH",
         "result": [
           {
-            "letter": "P",
+            "letter": "C",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
             "status": "correct"
           },
           {
             "letter": "H",
-            "status": "correct"
-          },
-          {
-            "letter": "A",
-            "status": "correct"
-          },
-          {
-            "letter": "W",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "COUCH",
             "entropy": 0.0
           }
         ]

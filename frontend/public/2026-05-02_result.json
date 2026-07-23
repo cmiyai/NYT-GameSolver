@@ -1,0 +1,142 @@
+{
+  "date": "2026-05-02",
+  "wordle": {
+    "date": "2026-05-02",
+    "answer": "BRING",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 113,
+        "eliminatedPercentage": 96.8,
+        "topCandidates": [
+          {
+            "word": "GROIN",
+            "entropy": 4.77
+          },
+          {
+            "word": "CROON",
+            "entropy": 4.7
+          },
+          {
+            "word": "GRIND",
+            "entropy": 4.69
+          },
+          {
+            "word": "CRONY",
+            "entropy": 4.65
+          },
+          {
+            "word": "CROWD",
+            "entropy": 4.59
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COIGN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.93,
+        "remainingWords": 3,
+        "eliminatedPercentage": 97.3,
+        "topCandidates": [
+          {
+            "word": "BRING",
+            "entropy": 1.58
+          },
+          {
+            "word": "WRING",
+            "entropy": 1.58
+          },
+          {
+            "word": "GRIND",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BRING",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "BRING",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

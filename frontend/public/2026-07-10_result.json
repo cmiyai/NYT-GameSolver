@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-10",
+  "wordle": {
+    "date": "2026-07-10",
+    "answer": "CANAL",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 131,
+        "eliminatedPercentage": 96.3,
+        "topCandidates": [
+          {
+            "word": "MANIA",
+            "entropy": 4.14
+          },
+          {
+            "word": "MANLY",
+            "entropy": 4.12
+          },
+          {
+            "word": "CANDY",
+            "entropy": 4.07
+          },
+          {
+            "word": "MAYAN",
+            "entropy": 4.05
+          },
+          {
+            "word": "MANIC",
+            "entropy": 3.93
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MINCY",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.5,
+        "topCandidates": [
+          {
+            "word": "CANAL",
+            "entropy": 1.0
+          },
+          {
+            "word": "CANON",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CANAL",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "CANAL",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

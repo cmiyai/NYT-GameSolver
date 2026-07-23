@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-06-16",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-06-16",
+    "answer": "AMAZE",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -26,45 +26,45 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "correct"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 46,
+        "eliminatedPercentage": 98.7,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "ANGLE",
+            "entropy": 3.83
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "ALINE",
+            "entropy": 3.77
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "GLADE",
+            "entropy": 3.73
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "ALIKE",
+            "entropy": 3.73
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "ALIVE",
+            "entropy": 3.69
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "GLAND",
         "result": [
           {
-            "letter": "C",
+            "letter": "G",
             "status": "absent"
           },
           {
@@ -73,93 +73,54 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
             "letter": "N",
             "status": "absent"
           },
           {
-            "letter": "S",
-            "status": "present"
+            "letter": "D",
+            "status": "absent"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 4.34,
+        "remainingWords": 7,
+        "eliminatedPercentage": 84.8,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "AWAKE",
+            "entropy": 2.13
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "HEAVE",
+            "entropy": 2.13
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "WEAVE",
+            "entropy": 2.13
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "PEACE",
+            "entropy": 1.84
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "CHAFE",
+            "entropy": 1.66
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "CHAWK",
         "result": [
           {
-            "letter": "B",
+            "letter": "C",
             "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "absent"
-          }
-        ],
-        "entropyBits": 2.95,
-        "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
-        "topCandidates": [
-          {
-            "word": "PSHAW",
-            "entropy": 0.0
-          }
-        ]
-      },
-      {
-        "turn": 4,
-        "guess": "PSHAW",
-        "result": [
-          {
-            "letter": "P",
-            "status": "correct"
-          },
-          {
-            "letter": "S",
-            "status": "correct"
           },
           {
             "letter": "H",
-            "status": "correct"
+            "status": "absent"
           },
           {
             "letter": "A",
@@ -167,6 +128,45 @@
           },
           {
             "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.81,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "AMAZE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "AMAZE",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "Z",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "AMAZE",
             "entropy": 0.0
           }
         ]

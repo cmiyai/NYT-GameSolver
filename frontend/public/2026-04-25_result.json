@@ -1,0 +1,224 @@
+{
+  "date": "2026-04-25",
+  "wordle": {
+    "date": "2026-04-25",
+    "answer": "WOMEN",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 178,
+        "eliminatedPercentage": 94.9,
+        "topCandidates": [
+          {
+            "word": "OLDEN",
+            "entropy": 5.07
+          },
+          {
+            "word": "MELON",
+            "entropy": 4.87
+          },
+          {
+            "word": "NEEDY",
+            "entropy": 4.85
+          },
+          {
+            "word": "YODEL",
+            "entropy": 4.84
+          },
+          {
+            "word": "BONEY",
+            "entropy": 4.83
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DYNEL",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.14,
+        "remainingWords": 8,
+        "eliminatedPercentage": 95.5,
+        "topCandidates": [
+          {
+            "word": "COVEN",
+            "entropy": 2.75
+          },
+          {
+            "word": "WOVEN",
+            "entropy": 2.75
+          },
+          {
+            "word": "WOKEN",
+            "entropy": 1.91
+          },
+          {
+            "word": "WOMEN",
+            "entropy": 1.91
+          },
+          {
+            "word": "COHEN",
+            "entropy": 1.81
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "COVED",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.75,
+        "remainingWords": 2,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "WOKEN",
+            "entropy": 1.0
+          },
+          {
+            "word": "WOMEN",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "WOKEN",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "WOMEN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "WOMEN",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WOMEN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

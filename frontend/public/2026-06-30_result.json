@@ -1,0 +1,224 @@
+{
+  "date": "2026-06-30",
+  "wordle": {
+    "date": "2026-06-30",
+    "answer": "PUPPY",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 352,
+        "eliminatedPercentage": 89.9,
+        "topCandidates": [
+          {
+            "word": "COLIN",
+            "entropy": 5.7
+          },
+          {
+            "word": "COULD",
+            "entropy": 5.46
+          },
+          {
+            "word": "DOILY",
+            "entropy": 5.46
+          },
+          {
+            "word": "LINDY",
+            "entropy": 5.38
+          },
+          {
+            "word": "LINGO",
+            "entropy": 5.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.7,
+        "remainingWords": 26,
+        "eliminatedPercentage": 92.6,
+        "topCandidates": [
+          {
+            "word": "PYGMY",
+            "entropy": 3.45
+          },
+          {
+            "word": "DUMPY",
+            "entropy": 3.29
+          },
+          {
+            "word": "BUMPY",
+            "entropy": 3.22
+          },
+          {
+            "word": "PUDGY",
+            "entropy": 3.19
+          },
+          {
+            "word": "HUMPH",
+            "entropy": 2.93
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "PYGMY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 3.45,
+        "remainingWords": 2,
+        "eliminatedPercentage": 92.3,
+        "topCandidates": [
+          {
+            "word": "PUFFY",
+            "entropy": 1.0
+          },
+          {
+            "word": "PUPPY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "PUFFY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "PUPPY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "PUPPY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "PUPPY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

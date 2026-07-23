@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-16",
+  "wordle": {
+    "date": "2026-07-16",
+    "answer": "BUTTE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 18,
+        "eliminatedPercentage": 99.5,
+        "topCandidates": [
+          {
+            "word": "UTILE",
+            "entropy": 3.64
+          },
+          {
+            "word": "CUTIE",
+            "entropy": 3.61
+          },
+          {
+            "word": "QUITE",
+            "entropy": 3.5
+          },
+          {
+            "word": "UNITE",
+            "entropy": 3.39
+          },
+          {
+            "word": "UNTIE",
+            "entropy": 3.39
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MUILS",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.95,
+        "remainingWords": 2,
+        "eliminatedPercentage": 88.9,
+        "topCandidates": [
+          {
+            "word": "BUTTE",
+            "entropy": 1.0
+          },
+          {
+            "word": "QUOTE",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BUTTE",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "BUTTE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

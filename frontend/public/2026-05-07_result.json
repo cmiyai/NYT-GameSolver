@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-07",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-07",
+    "answer": "BUDGE",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,7 +18,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
@@ -26,45 +26,53 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "correct"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "OLDIE",
+            "entropy": 4.64
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "LOUIE",
+            "entropy": 4.57
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "GUILE",
+            "entropy": 4.47
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "ELIDE",
+            "entropy": 4.4
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "GLIDE",
+            "entropy": 4.39
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DINLO",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
             "status": "absent"
           },
           {
@@ -72,7 +80,50 @@
             "status": "absent"
           },
           {
-            "letter": "A",
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.29,
+        "remainingWords": 6,
+        "eliminatedPercentage": 95.2,
+        "topCandidates": [
+          {
+            "word": "BUDGE",
+            "entropy": 1.92
+          },
+          {
+            "word": "FUDGE",
+            "entropy": 1.92
+          },
+          {
+            "word": "JUDGE",
+            "entropy": 1.92
+          },
+          {
+            "word": "HEDGE",
+            "entropy": 1.79
+          },
+          {
+            "word": "WEDGE",
+            "entropy": 1.79
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BHUNA",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
             "status": "present"
           },
           {
@@ -80,93 +131,42 @@
             "status": "absent"
           },
           {
-            "letter": "S",
-            "status": "present"
-          }
-        ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
-        "topCandidates": [
-          {
-            "word": "SIMBA",
-            "entropy": 2.73
-          },
-          {
-            "word": "SQUAB",
-            "entropy": 2.5
-          },
-          {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
-          }
-        ]
-      },
-      {
-        "turn": 3,
-        "guess": "BAGUA",
-        "result": [
-          {
-            "letter": "B",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
             "letter": "A",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 2.25,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 83.3,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "BUDGE",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "BUDGE",
         "result": [
           {
-            "letter": "P",
+            "letter": "B",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "U",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "D",
             "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "G",
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "E",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "BUDGE",
             "entropy": 0.0
           }
         ]

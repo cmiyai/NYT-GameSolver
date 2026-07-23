@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-05",
+  "wordle": {
+    "date": "2026-05-05",
+    "answer": "LATCH",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 40,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "HAUNT",
+            "entropy": 3.24
+          },
+          {
+            "word": "CAPUT",
+            "entropy": 3.16
+          },
+          {
+            "word": "CANTO",
+            "entropy": 3.14
+          },
+          {
+            "word": "PATCH",
+            "entropy": 3.06
+          },
+          {
+            "word": "PAINT",
+            "entropy": 3.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CLINT",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.86,
+        "remainingWords": 1,
+        "eliminatedPercentage": 97.5,
+        "topCandidates": [
+          {
+            "word": "LATCH",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "LATCH",
+        "result": [
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "LATCH",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

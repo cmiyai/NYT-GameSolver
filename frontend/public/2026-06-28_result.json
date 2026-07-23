@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-28",
+  "wordle": {
+    "date": "2026-06-28",
+    "answer": "EMCEE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
+        "topCandidates": [
+          {
+            "word": "OLDIE",
+            "entropy": 4.64
+          },
+          {
+            "word": "LOUIE",
+            "entropy": 4.57
+          },
+          {
+            "word": "GUILE",
+            "entropy": 4.47
+          },
+          {
+            "word": "ELIDE",
+            "entropy": 4.4
+          },
+          {
+            "word": "GLIDE",
+            "entropy": 4.39
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.29,
+        "remainingWords": 4,
+        "eliminatedPercentage": 96.8,
+        "topCandidates": [
+          {
+            "word": "EMCEE",
+            "entropy": 2.0
+          },
+          {
+            "word": "FEMME",
+            "entropy": 2.0
+          },
+          {
+            "word": "FUGUE",
+            "entropy": 2.0
+          },
+          {
+            "word": "QUEUE",
+            "entropy": 1.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "EMCEE",
+        "result": [
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "EMCEE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-08",
+  "wordle": {
+    "date": "2026-06-08",
+    "answer": "MAFIA",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 131,
+        "eliminatedPercentage": 96.3,
+        "topCandidates": [
+          {
+            "word": "MANIA",
+            "entropy": 4.14
+          },
+          {
+            "word": "MANLY",
+            "entropy": 4.12
+          },
+          {
+            "word": "CANDY",
+            "entropy": 4.07
+          },
+          {
+            "word": "MAYAN",
+            "entropy": 4.05
+          },
+          {
+            "word": "MANIC",
+            "entropy": 3.93
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MINCY",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 4,
+        "eliminatedPercentage": 96.9,
+        "topCandidates": [
+          {
+            "word": "MAFIA",
+            "entropy": 1.5
+          },
+          {
+            "word": "MAIKO",
+            "entropy": 1.5
+          },
+          {
+            "word": "MALIK",
+            "entropy": 1.5
+          },
+          {
+            "word": "MAXIM",
+            "entropy": 1.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "MAFIA",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.5,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "MAFIA",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

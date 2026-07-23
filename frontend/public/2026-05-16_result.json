@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-16",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-16",
+    "answer": "MOVER",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,53 +18,61 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
             "status": "present"
           },
           {
-            "letter": "E",
+            "letter": "S",
             "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 153,
+        "eliminatedPercentage": 95.6,
         "topCandidates": [
           {
-            "word": "CLAMS",
+            "word": "RIDER",
+            "entropy": 4.27
+          },
+          {
+            "word": "DINER",
             "entropy": 4.25
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "DRIER",
+            "entropy": 4.2
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "CIDER",
+            "entropy": 4.17
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
-          },
-          {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "RILED",
+            "entropy": 4.15
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DINLO",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
             "status": "absent"
           },
           {
@@ -72,101 +80,93 @@
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
+            "letter": "O",
             "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 4.38,
+        "remainingWords": 21,
+        "eliminatedPercentage": 86.3,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "MOWER",
+            "entropy": 2.2
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "ROWER",
+            "entropy": 1.97
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "POWER",
+            "entropy": 1.96
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "GOMER",
+            "entropy": 1.91
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "MOVER",
+            "entropy": 1.89
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "WOMBY",
         "result": [
+          {
+            "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "present"
+          },
           {
             "letter": "B",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
+            "letter": "Y",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 2.8,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 95.2,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "MOVER",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "MOVER",
         "result": [
           {
-            "letter": "P",
+            "letter": "M",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "O",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "V",
             "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "E",
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "R",
             "status": "correct"
           }
         ],
@@ -175,7 +175,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "MOVER",
             "entropy": 0.0
           }
         ]

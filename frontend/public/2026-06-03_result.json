@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-03",
+  "wordle": {
+    "date": "2026-06-03",
+    "answer": "NOTCH",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 106,
+        "eliminatedPercentage": 97.0,
+        "topCandidates": [
+          {
+            "word": "COUNT",
+            "entropy": 4.86
+          },
+          {
+            "word": "DONUT",
+            "entropy": 4.78
+          },
+          {
+            "word": "MOUTH",
+            "entropy": 4.75
+          },
+          {
+            "word": "PINTO",
+            "entropy": 4.71
+          },
+          {
+            "word": "FILTH",
+            "entropy": 4.7
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NITTO",
+        "result": [
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.86,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.1,
+        "topCandidates": [
+          {
+            "word": "NOTCH",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "NOTCH",
+        "result": [
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "NOTCH",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

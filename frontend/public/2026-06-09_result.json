@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-06-09",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
-    "totalTurns": 4,
+    "date": "2026-06-09",
+    "answer": "WHARF",
+    "totalTurns": 5,
     "solved": true,
     "initialPoolSize": 3500,
     "algorithmName": "Information Entropy",
@@ -22,11 +22,11 @@
           },
           {
             "letter": "R",
-            "status": "absent"
+            "status": "present"
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
@@ -34,37 +34,37 @@
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 95,
+        "eliminatedPercentage": 97.3,
         "topCandidates": [
           {
-            "word": "CLAMS",
+            "word": "DRACO",
+            "entropy": 4.29
+          },
+          {
+            "word": "BOARD",
+            "entropy": 4.29
+          },
+          {
+            "word": "DRAIN",
+            "entropy": 4.26
+          },
+          {
+            "word": "BRAND",
             "entropy": 4.25
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
-          },
-          {
-            "word": "SCALP",
-            "entropy": 4.03
-          },
-          {
-            "word": "SNAIL",
-            "entropy": 4.02
-          },
-          {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "BROAD",
+            "entropy": 4.24
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "BLOND",
         "result": [
           {
-            "letter": "C",
+            "letter": "B",
             "status": "absent"
           },
           {
@@ -72,58 +72,89 @@
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
+            "letter": "O",
+            "status": "absent"
           },
           {
             "letter": "N",
             "status": "absent"
           },
           {
-            "letter": "S",
-            "status": "present"
+            "letter": "D",
+            "status": "absent"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 4.55,
+        "remainingWords": 18,
+        "eliminatedPercentage": 81.1,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "CHARM",
+            "entropy": 3.57
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "CRAMP",
+            "entropy": 3.57
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
+            "word": "CHAIR",
+            "entropy": 3.53
           },
           {
-            "word": "SHIVA",
-            "entropy": 2.42
+            "word": "FRACK",
+            "entropy": 3.46
           },
           {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "CRAZY",
+            "entropy": 3.35
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "CRAPY",
         "result": [
           {
-            "letter": "B",
+            "letter": "C",
             "status": "absent"
           },
           {
-            "letter": "A",
+            "letter": "R",
             "status": "present"
           },
           {
-            "letter": "G",
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.73,
+        "remainingWords": 2,
+        "eliminatedPercentage": 88.9,
+        "topCandidates": [
+          {
+            "word": "QUARK",
+            "entropy": 1.0
+          },
+          {
+            "word": "WHARF",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "QUARK",
+        "result": [
+          {
+            "letter": "Q",
             "status": "absent"
           },
           {
@@ -132,29 +163,33 @@
           },
           {
             "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
             "status": "absent"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 1.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 50.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "WHARF",
             "entropy": 0.0
           }
         ]
       },
       {
-        "turn": 4,
-        "guess": "PSHAW",
+        "turn": 5,
+        "guess": "WHARF",
         "result": [
           {
-            "letter": "P",
-            "status": "correct"
-          },
-          {
-            "letter": "S",
+            "letter": "W",
             "status": "correct"
           },
           {
@@ -166,7 +201,11 @@
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
             "status": "correct"
           }
         ],
@@ -175,7 +214,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "WHARF",
             "entropy": 0.0
           }
         ]

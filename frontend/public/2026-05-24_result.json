@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-05-24",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-05-24",
+    "answer": "NIECE",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -18,7 +18,7 @@
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "R",
@@ -26,147 +26,135 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "correct"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "OLDIE",
+            "entropy": 4.64
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "LOUIE",
+            "entropy": 4.57
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "GUILE",
+            "entropy": 4.47
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "ELIDE",
+            "entropy": 4.4
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "GLIDE",
+            "entropy": 4.39
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "DINLO",
         "result": [
           {
-            "letter": "C",
+            "letter": "D",
             "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "present"
           },
           {
             "letter": "L",
             "status": "absent"
           },
           {
-            "letter": "A",
-            "status": "present"
-          },
-          {
-            "letter": "N",
+            "letter": "O",
             "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 5.29,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.4,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "NICHE",
+            "entropy": 1.0
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
-          },
-          {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "NIECE",
+            "entropy": 1.0
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "NICHE",
         "result": [
           {
-            "letter": "B",
-            "status": "absent"
+            "letter": "N",
+            "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
             "status": "present"
           },
           {
-            "letter": "G",
+            "letter": "H",
             "status": "absent"
           },
           {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "absent"
+            "letter": "E",
+            "status": "correct"
           }
         ],
-        "entropyBits": 2.95,
+        "entropyBits": 1.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "eliminatedPercentage": 50.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "NIECE",
             "entropy": 0.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "NIECE",
         "result": [
           {
-            "letter": "P",
+            "letter": "N",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "I",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "E",
             "status": "correct"
           },
           {
-            "letter": "A",
+            "letter": "C",
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "E",
             "status": "correct"
           }
         ],
@@ -175,7 +163,7 @@
         "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "NIECE",
             "entropy": 0.0
           }
         ]

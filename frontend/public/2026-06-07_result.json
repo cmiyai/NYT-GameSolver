@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-07",
+  "wordle": {
+    "date": "2026-06-07",
+    "answer": "THUMB",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 34,
+        "eliminatedPercentage": 99.0,
+        "topCandidates": [
+          {
+            "word": "TUNIC",
+            "entropy": 3.72
+          },
+          {
+            "word": "THING",
+            "entropy": 3.65
+          },
+          {
+            "word": "TITCH",
+            "entropy": 3.64
+          },
+          {
+            "word": "TYING",
+            "entropy": 3.56
+          },
+          {
+            "word": "THINK",
+            "entropy": 3.51
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "YOGIN",
+        "result": [
+          {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.12,
+        "remainingWords": 2,
+        "eliminatedPercentage": 94.1,
+        "topCandidates": [
+          {
+            "word": "THUMB",
+            "entropy": 1.0
+          },
+          {
+            "word": "THUMP",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "THUMB",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "THUMB",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

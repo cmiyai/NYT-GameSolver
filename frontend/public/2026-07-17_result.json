@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-17",
   "wordle": {
-    "date": "2026-07-15",
-    "answer": "PSHAW",
+    "date": "2026-07-17",
+    "answer": "LEGAL",
     "totalTurns": 4,
     "solved": true,
     "initialPoolSize": 3500,
@@ -26,139 +26,135 @@
           },
           {
             "letter": "S",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "E",
-            "status": "absent"
+            "status": "present"
           }
         ],
         "entropyBits": 5.97,
-        "remainingWords": 68,
-        "eliminatedPercentage": 98.1,
+        "remainingWords": 61,
+        "eliminatedPercentage": 98.3,
         "topCandidates": [
           {
-            "word": "CLAMS",
-            "entropy": 4.25
+            "word": "MEDAL",
+            "entropy": 4.6
           },
           {
-            "word": "SLAIN",
-            "entropy": 4.05
+            "word": "PENAL",
+            "entropy": 4.51
           },
           {
-            "word": "SCALP",
-            "entropy": 4.03
+            "word": "DECAL",
+            "entropy": 4.5
           },
           {
-            "word": "SNAIL",
-            "entropy": 4.02
+            "word": "PEDAL",
+            "entropy": 4.5
           },
           {
-            "word": "SLACK",
-            "entropy": 3.96
+            "word": "DELAY",
+            "entropy": 4.37
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "CLANS",
+        "guess": "MEDAL",
         "result": [
           {
-            "letter": "C",
+            "letter": "M",
             "status": "absent"
           },
           {
-            "letter": "L",
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
             "status": "absent"
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
-            "letter": "N",
-            "status": "absent"
-          },
-          {
-            "letter": "S",
-            "status": "present"
+            "letter": "L",
+            "status": "correct"
           }
         ],
-        "entropyBits": 4.25,
-        "remainingWords": 9,
-        "eliminatedPercentage": 86.8,
+        "entropyBits": 4.6,
+        "remainingWords": 3,
+        "eliminatedPercentage": 95.1,
         "topCandidates": [
           {
-            "word": "SIMBA",
-            "entropy": 2.73
+            "word": "FECAL",
+            "entropy": 0.92
           },
           {
-            "word": "SQUAB",
-            "entropy": 2.5
+            "word": "LEGAL",
+            "entropy": 0.92
           },
           {
-            "word": "PSHAW",
-            "entropy": 2.42
-          },
-          {
-            "word": "SHIVA",
-            "entropy": 2.42
-          },
-          {
-            "word": "SIGMA",
-            "entropy": 2.42
+            "word": "PENAL",
+            "entropy": 0.92
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "BAGUA",
+        "guess": "FECAL",
         "result": [
           {
-            "letter": "B",
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
             "status": "absent"
           },
           {
             "letter": "A",
-            "status": "present"
+            "status": "correct"
           },
           {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "U",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "absent"
+            "letter": "L",
+            "status": "correct"
           }
         ],
-        "entropyBits": 2.95,
-        "remainingWords": 1,
-        "eliminatedPercentage": 88.9,
+        "entropyBits": 0.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 33.3,
         "topCandidates": [
           {
-            "word": "PSHAW",
-            "entropy": 0.0
+            "word": "LEGAL",
+            "entropy": 1.0
+          },
+          {
+            "word": "PENAL",
+            "entropy": 1.0
           }
         ]
       },
       {
         "turn": 4,
-        "guess": "PSHAW",
+        "guess": "LEGAL",
         "result": [
           {
-            "letter": "P",
+            "letter": "L",
             "status": "correct"
           },
           {
-            "letter": "S",
+            "letter": "E",
             "status": "correct"
           },
           {
-            "letter": "H",
+            "letter": "G",
             "status": "correct"
           },
           {
@@ -166,16 +162,16 @@
             "status": "correct"
           },
           {
-            "letter": "W",
+            "letter": "L",
             "status": "correct"
           }
         ],
-        "entropyBits": 0.0,
+        "entropyBits": 1.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 0.0,
+        "eliminatedPercentage": 50.0,
         "topCandidates": [
           {
-            "word": "PSHAW",
+            "word": "LEGAL",
             "entropy": 0.0
           }
         ]

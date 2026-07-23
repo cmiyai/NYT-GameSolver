@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-22",
+  "wordle": {
+    "date": "2026-07-22",
+    "answer": "LORRY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 37,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "CURLY",
+            "entropy": 3.82
+          },
+          {
+            "word": "CURRY",
+            "entropy": 3.79
+          },
+          {
+            "word": "LORRY",
+            "entropy": 3.65
+          },
+          {
+            "word": "CORKY",
+            "entropy": 3.62
+          },
+          {
+            "word": "CORNY",
+            "entropy": 3.58
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "LUCKY",
+        "result": [
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.23,
+        "remainingWords": 2,
+        "eliminatedPercentage": 94.6,
+        "topCandidates": [
+          {
+            "word": "LORDY",
+            "entropy": 1.0
+          },
+          {
+            "word": "LORRY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "LORDY",
+        "result": [
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "LORRY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "LORRY",
+        "result": [
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "LORRY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ import numpy as np
 import solver
 
 now = datetime.now()
-yester = now - timedelta(days=7)
+yester = now - timedelta(days=5)
 yesterday = yester.strftime("%Y-%m-%d")
 
 url = f"https://www.nytimes.com/svc/wordle/v2/{yesterday}.json"
@@ -22,9 +22,10 @@ except Exception as e:
 
 wordle_solution = wordle['solution'].lower()
 puzzle_date = wordle['print_date']
-wordle_solution = "smore"
+#wordle_solution = "spore"
 
 STATUS = {0: "absent", 1: "correct", 2: "present"}
+THRESHOLD = 5 # number of words that trigger when to only guess from:tune to best for sampling down when few words left
 
 
 def best_entropy_guess(candidates, words_left, pattern_matrix, word_pool):
@@ -56,7 +57,9 @@ for turn in range(1, 7):
     if pool_before == 1:
         guess = valid_answers[words_left[0]]
     else:
-        guess, _ = best_entropy_guess(word_pool, words_left, pattern_matrix, word_pool)
+        # guess only words from valid if less than threshold
+        candidates = valid_answers[words_left] if pool_before <= THRESHOLD else word_pool
+        guess, _ = best_entropy_guess(candidates, words_left, pattern_matrix, word_pool)
 
     entropy_bits = solver.ShannonEntropy(solver.pattern_probabilities(guess, words_left, pattern_matrix, word_pool))
     pattern = solver.get_pattern(guess, wordle_solution)
@@ -71,6 +74,12 @@ for turn in range(1, 7):
 
     eliminated_pct = round((pool_before - remaining) / pool_before * 100, 1) if pool_before else 0.0
     top = solver.top_candidates(valid_answers[words_left], words_left, pattern_matrix, word_pool, min(5, remaining))
+    if len(words_left) < 10:
+        print(valid_answers[words_left])
+        for i in words_left:
+            entro_guess = valid_answers[i]
+            bro = solver.ShannonEntropy(solver.pattern_probabilities(entro_guess, words_left, pattern_matrix, word_pool))
+            print(f"{entro_guess}: {bro} bits")
 
     steps.append({
         "turn": turn,

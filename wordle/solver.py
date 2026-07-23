@@ -54,6 +54,7 @@ def pattern_probabilities(guess, words_left, pattern_matrix, word_pool):
 
 def ShannonEntropy(dist):
     # dist = np.array(dist)
+    dist =  dist[dist > 0]
     randos = np.where(dist > 0, dist * np.log2(dist) , 0)
     return -np.sum(randos)
 # print(ShannonEntropy([1/6, 1/6, 1/6, 1/6, 1/6, 1/6]))
@@ -125,7 +126,7 @@ if __name__ == "__main__":
                 
                 print("\nTop STRATEGIC WORDS (Best information gain):")
                 print("-" * 45)
-                for word, score in all_choices[:5]:
+                for word, score in all_choices[:10]:
                     print(f"💡 {word:<8} | {score:.4f} bits")
             print("-" * 45)
             

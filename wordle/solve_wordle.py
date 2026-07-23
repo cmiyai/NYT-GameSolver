@@ -8,8 +8,9 @@ import solver
 now = datetime.now()
 yester = now - timedelta(days=5)
 yesterday = yester.strftime("%Y-%m-%d")
+today = now.strftime("%Y-%m-%d")
 
-url = f"https://www.nytimes.com/svc/wordle/v2/{yesterday}.json"
+url = f"https://www.nytimes.com/svc/wordle/v2/{today}.json"
 
 req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
 
@@ -22,7 +23,6 @@ except Exception as e:
 
 wordle_solution = wordle['solution'].lower()
 puzzle_date = wordle['print_date']
-#wordle_solution = "spore"
 
 STATUS = {0: "absent", 1: "correct", 2: "present"}
 THRESHOLD = 5 # number of words that trigger when to only guess from:tune to best for sampling down when few words left

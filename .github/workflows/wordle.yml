@@ -2,7 +2,7 @@ name: Daily Wordle Solver & Sync
 
 on:
   schedule:
-    - cron: '0 5 * * *' # 00:00 EST
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:

@@ -1,0 +1,36 @@
+name: Daily Wordle Solver & Sync
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # 00:00 EST
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Grants git commit/push permissions
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Run Wordle Solver
+        working-directory: wordle
+        run: python3 solve_wordle.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add wordle/games/*_result.json
+          git commit -m "Auto-update daily Wordle results [$(date +'%Y-%m-%d')]" || exit 0
+          git push

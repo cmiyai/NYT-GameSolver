@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-23",
+  "wordle": {
+    "date": "2026-07-23",
+    "answer": "ORBIT",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 29,
+        "eliminatedPercentage": 99.2,
+        "topCandidates": [
+          {
+            "word": "FRUIT",
+            "entropy": 4.1
+          },
+          {
+            "word": "ORBIT",
+            "entropy": 4.06
+          },
+          {
+            "word": "FRONT",
+            "entropy": 4.02
+          },
+          {
+            "word": "GRIFT",
+            "entropy": 4.0
+          },
+          {
+            "word": "DRIFT",
+            "entropy": 3.94
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "FIBRO",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.28,
+        "remainingWords": 1,
+        "eliminatedPercentage": 96.6,
+        "topCandidates": [
+          {
+            "word": "ORBIT",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "ORBIT",
+        "result": [
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "ORBIT",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

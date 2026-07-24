@@ -1,0 +1,185 @@
+{
+  "date": "2026-07-25",
+  "wordle": {
+    "date": "2026-07-25",
+    "answer": "ALOHA",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 150,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "LIANA",
+            "entropy": 5.2
+          },
+          {
+            "word": "PLAIN",
+            "entropy": 4.99
+          },
+          {
+            "word": "ALONG",
+            "entropy": 4.97
+          },
+          {
+            "word": "ALIGN",
+            "entropy": 4.93
+          },
+          {
+            "word": "ALAMO",
+            "entropy": 4.92
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.52,
+        "remainingWords": 7,
+        "eliminatedPercentage": 95.3,
+        "topCandidates": [
+          {
+            "word": "AFOUL",
+            "entropy": 2.52
+          },
+          {
+            "word": "AHOLD",
+            "entropy": 2.52
+          },
+          {
+            "word": "ALOHA",
+            "entropy": 2.52
+          },
+          {
+            "word": "ALOOF",
+            "entropy": 2.52
+          },
+          {
+            "word": "ALOUD",
+            "entropy": 2.52
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "AFALD",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.81,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "ALOHA",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "ALOHA",
+        "result": [
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "ALOHA",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

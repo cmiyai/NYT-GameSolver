@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-24",
+  "wordle": {
+    "date": "2026-07-24",
+    "answer": "PUTTY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 106,
+        "eliminatedPercentage": 97.0,
+        "topCandidates": [
+          {
+            "word": "COUNT",
+            "entropy": 4.86
+          },
+          {
+            "word": "DONUT",
+            "entropy": 4.78
+          },
+          {
+            "word": "MOUTH",
+            "entropy": 4.75
+          },
+          {
+            "word": "PINTO",
+            "entropy": 4.71
+          },
+          {
+            "word": "FILTH",
+            "entropy": 4.7
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NITTO",
+        "result": [
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.86,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.1,
+        "topCandidates": [
+          {
+            "word": "CUTTY",
+            "entropy": 1.0
+          },
+          {
+            "word": "PUTTY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CUTTY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "PUTTY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "PUTTY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "PUTTY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

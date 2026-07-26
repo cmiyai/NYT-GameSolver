@@ -1,0 +1,189 @@
+{
+  "date": "2026-07-26",
+  "wordle": {
+    "date": "2026-07-26",
+    "answer": "GRAPE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 23,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "GRACE",
+            "entropy": 2.91
+          },
+          {
+            "word": "BRACE",
+            "entropy": 2.82
+          },
+          {
+            "word": "GRADE",
+            "entropy": 2.82
+          },
+          {
+            "word": "CRAZE",
+            "entropy": 2.75
+          },
+          {
+            "word": "GRAZE",
+            "entropy": 2.72
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DRACK",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.17,
+        "remainingWords": 5,
+        "eliminatedPercentage": 78.3,
+        "topCandidates": [
+          {
+            "word": "GRAVE",
+            "entropy": 1.92
+          },
+          {
+            "word": "GRAPE",
+            "entropy": 1.52
+          },
+          {
+            "word": "GRAZE",
+            "entropy": 1.52
+          },
+          {
+            "word": "BRAVE",
+            "entropy": 1.37
+          },
+          {
+            "word": "FRAME",
+            "entropy": 0.72
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GRAVE",
+        "result": [
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 60.0,
+        "topCandidates": [
+          {
+            "word": "GRAPE",
+            "entropy": 1.0
+          },
+          {
+            "word": "GRAZE",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "GRAPE",
+        "result": [
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "GRAPE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

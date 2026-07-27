@@ -1,0 +1,177 @@
+{
+  "date": "2026-07-27",
+  "wordle": {
+    "date": "2026-07-27",
+    "answer": "POSER",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 29,
+        "eliminatedPercentage": 99.2,
+        "topCandidates": [
+          {
+            "word": "SEWER",
+            "entropy": 3.59
+          },
+          {
+            "word": "SPEER",
+            "entropy": 3.59
+          },
+          {
+            "word": "SNEER",
+            "entropy": 3.42
+          },
+          {
+            "word": "REEKS",
+            "entropy": 3.4
+          },
+          {
+            "word": "REELS",
+            "entropy": 3.4
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "RESEW",
+        "result": [
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.81,
+        "remainingWords": 3,
+        "eliminatedPercentage": 89.7,
+        "topCandidates": [
+          {
+            "word": "LOSER",
+            "entropy": 1.58
+          },
+          {
+            "word": "POSER",
+            "entropy": 1.58
+          },
+          {
+            "word": "MISER",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "LOSER",
+        "result": [
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "POSER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "POSER",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "POSER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

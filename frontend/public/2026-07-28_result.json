@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-28",
+  "wordle": {
+    "date": "2026-07-28",
+    "answer": "SONAR",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 20,
+        "eliminatedPercentage": 99.4,
+        "topCandidates": [
+          {
+            "word": "SOLAR",
+            "entropy": 2.92
+          },
+          {
+            "word": "SONAR",
+            "entropy": 2.92
+          },
+          {
+            "word": "GRAMS",
+            "entropy": 2.84
+          },
+          {
+            "word": "SHARK",
+            "entropy": 2.82
+          },
+          {
+            "word": "SHARP",
+            "entropy": 2.82
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "SOKAH",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.38,
+        "remainingWords": 2,
+        "eliminatedPercentage": 90.0,
+        "topCandidates": [
+          {
+            "word": "SOLAR",
+            "entropy": 1.0
+          },
+          {
+            "word": "SONAR",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SOLAR",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "SONAR",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SONAR",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SONAR",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

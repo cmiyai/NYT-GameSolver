@@ -1,0 +1,177 @@
+{
+  "date": "2026-07-29",
+  "wordle": {
+    "date": "2026-07-29",
+    "answer": "VALVE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 29,
+        "eliminatedPercentage": 99.2,
+        "topCandidates": [
+          {
+            "word": "GABLE",
+            "entropy": 2.8
+          },
+          {
+            "word": "MANGE",
+            "entropy": 2.73
+          },
+          {
+            "word": "CABLE",
+            "entropy": 2.6
+          },
+          {
+            "word": "MADGE",
+            "entropy": 2.57
+          },
+          {
+            "word": "EAGLE",
+            "entropy": 2.46
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "GUILD",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.76,
+        "remainingWords": 3,
+        "eliminatedPercentage": 89.7,
+        "topCandidates": [
+          {
+            "word": "HALVE",
+            "entropy": 1.58
+          },
+          {
+            "word": "VALVE",
+            "entropy": 1.58
+          },
+          {
+            "word": "LANCE",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "HALVE",
+        "result": [
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "VALVE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "VALVE",
+        "result": [
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "VALVE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

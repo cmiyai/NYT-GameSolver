@@ -1,0 +1,216 @@
+{
+  "date": "2026-08-02",
+  "wordle": {
+    "date": "2026-08-02",
+    "answer": "PENAL",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 61,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "MEDAL",
+            "entropy": 4.6
+          },
+          {
+            "word": "PENAL",
+            "entropy": 4.51
+          },
+          {
+            "word": "DECAL",
+            "entropy": 4.5
+          },
+          {
+            "word": "PEDAL",
+            "entropy": 4.5
+          },
+          {
+            "word": "DELAY",
+            "entropy": 4.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MEDAL",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.6,
+        "remainingWords": 3,
+        "eliminatedPercentage": 95.1,
+        "topCandidates": [
+          {
+            "word": "FECAL",
+            "entropy": 0.92
+          },
+          {
+            "word": "LEGAL",
+            "entropy": 0.92
+          },
+          {
+            "word": "PENAL",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FECAL",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 33.3,
+        "topCandidates": [
+          {
+            "word": "LEGAL",
+            "entropy": 1.0
+          },
+          {
+            "word": "PENAL",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "LEGAL",
+        "result": [
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "PENAL",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "PENAL",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "PENAL",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

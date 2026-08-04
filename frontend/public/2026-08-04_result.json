@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-04",
+  "wordle": {
+    "date": "2026-08-04",
+    "answer": "MOTIF",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 106,
+        "eliminatedPercentage": 97.0,
+        "topCandidates": [
+          {
+            "word": "COUNT",
+            "entropy": 4.86
+          },
+          {
+            "word": "DONUT",
+            "entropy": 4.78
+          },
+          {
+            "word": "MOUTH",
+            "entropy": 4.75
+          },
+          {
+            "word": "PINTO",
+            "entropy": 4.71
+          },
+          {
+            "word": "FILTH",
+            "entropy": 4.7
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NITTO",
+        "result": [
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.86,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.1,
+        "topCandidates": [
+          {
+            "word": "MOTIF",
+            "entropy": 1.0
+          },
+          {
+            "word": "OPTIC",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "MOTIF",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "MOTIF",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

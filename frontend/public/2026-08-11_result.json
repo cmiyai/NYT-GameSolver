@@ -1,0 +1,189 @@
+{
+  "date": "2026-08-11",
+  "wordle": {
+    "date": "2026-08-11",
+    "answer": "FENCE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
+        "topCandidates": [
+          {
+            "word": "OLDIE",
+            "entropy": 4.64
+          },
+          {
+            "word": "LOUIE",
+            "entropy": 4.57
+          },
+          {
+            "word": "GUILE",
+            "entropy": 4.47
+          },
+          {
+            "word": "ELIDE",
+            "entropy": 4.4
+          },
+          {
+            "word": "GLIDE",
+            "entropy": 4.39
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.29,
+        "remainingWords": 5,
+        "eliminatedPercentage": 96.0,
+        "topCandidates": [
+          {
+            "word": "PENCE",
+            "entropy": 1.92
+          },
+          {
+            "word": "FENCE",
+            "entropy": 1.52
+          },
+          {
+            "word": "HENCE",
+            "entropy": 1.52
+          },
+          {
+            "word": "PENNE",
+            "entropy": 1.37
+          },
+          {
+            "word": "VENUE",
+            "entropy": 0.72
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "PENCE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 60.0,
+        "topCandidates": [
+          {
+            "word": "FENCE",
+            "entropy": 1.0
+          },
+          {
+            "word": "HENCE",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "FENCE",
+        "result": [
+          {
+            "letter": "F",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "FENCE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

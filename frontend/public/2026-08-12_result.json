@@ -1,0 +1,228 @@
+{
+  "date": "2026-08-12",
+  "wordle": {
+    "date": "2026-08-12",
+    "answer": "WIMPY",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 352,
+        "eliminatedPercentage": 89.9,
+        "topCandidates": [
+          {
+            "word": "COLIN",
+            "entropy": 5.7
+          },
+          {
+            "word": "COULD",
+            "entropy": 5.46
+          },
+          {
+            "word": "DOILY",
+            "entropy": 5.46
+          },
+          {
+            "word": "LINDY",
+            "entropy": 5.38
+          },
+          {
+            "word": "LINGO",
+            "entropy": 5.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "COLIN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.7,
+        "remainingWords": 22,
+        "eliminatedPercentage": 93.8,
+        "topCandidates": [
+          {
+            "word": "GIMPY",
+            "entropy": 2.82
+          },
+          {
+            "word": "DIPPY",
+            "entropy": 2.8
+          },
+          {
+            "word": "GIDDY",
+            "entropy": 2.63
+          },
+          {
+            "word": "PIGGY",
+            "entropy": 2.62
+          },
+          {
+            "word": "DIZZY",
+            "entropy": 2.55
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "PODGY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 3.39,
+        "remainingWords": 3,
+        "eliminatedPercentage": 86.4,
+        "topCandidates": [
+          {
+            "word": "HIPPY",
+            "entropy": 1.58
+          },
+          {
+            "word": "ZIPPY",
+            "entropy": 1.58
+          },
+          {
+            "word": "WIMPY",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "HIPPY",
+        "result": [
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "WIMPY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "WIMPY",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WIMPY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

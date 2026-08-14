@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-14",
+  "wordle": {
+    "date": "2026-08-14",
+    "answer": "GEODE",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 124,
+        "eliminatedPercentage": 96.5,
+        "topCandidates": [
+          {
+            "word": "OLDIE",
+            "entropy": 4.64
+          },
+          {
+            "word": "LOUIE",
+            "entropy": 4.57
+          },
+          {
+            "word": "GUILE",
+            "entropy": 4.47
+          },
+          {
+            "word": "ELIDE",
+            "entropy": 4.4
+          },
+          {
+            "word": "GLIDE",
+            "entropy": 4.39
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DINLO",
+        "result": [
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.29,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.2,
+        "topCandidates": [
+          {
+            "word": "CHODE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CHODE",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

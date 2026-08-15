@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-15",
+  "wordle": {
+    "date": "2026-08-15",
+    "answer": "LOOSE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 26,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "LOUSE",
+            "entropy": 2.84
+          },
+          {
+            "word": "POSSE",
+            "entropy": 2.78
+          },
+          {
+            "word": "NOOSE",
+            "entropy": 2.71
+          },
+          {
+            "word": "CLOSE",
+            "entropy": 2.7
+          },
+          {
+            "word": "POISE",
+            "entropy": 2.67
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "POILU",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.59,
+        "remainingWords": 1,
+        "eliminatedPercentage": 96.2,
+        "topCandidates": [
+          {
+            "word": "LOOSE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "LOOSE",
+        "result": [
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "LOOSE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-16",
+  "wordle": {
+    "date": "2026-08-16",
+    "answer": "ASPIC",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 68,
+        "eliminatedPercentage": 98.1,
+        "topCandidates": [
+          {
+            "word": "CLAMS",
+            "entropy": 4.25
+          },
+          {
+            "word": "SLAIN",
+            "entropy": 4.05
+          },
+          {
+            "word": "SCALP",
+            "entropy": 4.03
+          },
+          {
+            "word": "SNAIL",
+            "entropy": 4.02
+          },
+          {
+            "word": "SLACK",
+            "entropy": 3.96
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CLANS",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.25,
+        "remainingWords": 2,
+        "eliminatedPercentage": 97.1,
+        "topCandidates": [
+          {
+            "word": "SCUBA",
+            "entropy": 1.0
+          },
+          {
+            "word": "SUMAC",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SCUBA",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

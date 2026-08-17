@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-17",
+  "wordle": {
+    "date": "2026-08-17",
+    "answer": "TRIBE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "TARSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.97,
+        "remainingWords": 9,
+        "eliminatedPercentage": 99.7,
+        "topCandidates": [
+          {
+            "word": "TRICE",
+            "entropy": 2.06
+          },
+          {
+            "word": "TRIPE",
+            "entropy": 2.06
+          },
+          {
+            "word": "TROPE",
+            "entropy": 1.88
+          },
+          {
+            "word": "TRIBE",
+            "entropy": 1.75
+          },
+          {
+            "word": "TRINE",
+            "entropy": 1.75
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PICON",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.95,
+        "remainingWords": 2,
+        "eliminatedPercentage": 77.8,
+        "topCandidates": [
+          {
+            "word": "TRIBE",
+            "entropy": 1.0
+          },
+          {
+            "word": "TRITE",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TRIBE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "TRIBE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

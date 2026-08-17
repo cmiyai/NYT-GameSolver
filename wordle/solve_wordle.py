@@ -9,10 +9,10 @@ now = datetime.now()
 yester = now - timedelta(days=5)
 yesterday = yester.strftime("%Y-%m-%d")
 today = now.strftime("%Y-%m-%d")
-tmrw = now + timedelta(days=1)
+tmrw = now - timedelta(days=10)
 tmrw_date = tmrw.strftime("%Y-%m-%d") 
 # run the wordle one day ahead so we can scan ahead of frontend
-url = f"https://www.nytimes.com/svc/wordle/v2/{today}.json"
+url = f"https://www.nytimes.com/svc/wordle/v2/{tmrw_date}.json"
 
 req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
 
@@ -41,6 +41,52 @@ def best_entropy_guess(candidates, words_left, pattern_matrix, word_pool):
             best_word, best_score = word, score
     return best_word, best_score
 
+def beam_search_guess(candidates, words_left, pattern_matrix, word_pool, valid_answers, beam_width=5, depth=2):
+    """
+    Fast 2-ply beam search restricting second-ply evaluations to candidate pools.
+    """
+    if depth <= 1 or len(words_left) <= 2:
+        return best_entropy_guess(candidates, words_left, pattern_matrix, word_pool)
+
+    # 1. Score first-ply candidates
+    first_ply_scores = []
+    for word in candidates:
+        probs = solver.pattern_probabilities(word, words_left, pattern_matrix, word_pool)
+        first_ply_scores.append((solver.ShannonEntropy(probs), word))
+
+    first_ply_scores.sort(reverse=True, key=lambda x: x[0])
+    beam_candidates = first_ply_scores[:beam_width]
+
+    best_root_guess = None
+    best_expected_entropy = -1.0
+
+    # 2. Look ahead 1 step
+    for h1, word in beam_candidates:
+        w_idx = np.where(word_pool == word)[0][0]
+        patterns = pattern_matrix[w_idx, words_left]
+        unique_patterns, counts = np.unique(patterns, return_counts=True)
+        total_words = len(words_left)
+
+        expected_second_ply_entropy = 0.0
+
+        for pat, count in zip(unique_patterns, counts):
+            prob_pat = count / total_words
+            next_words_left = words_left[patterns == pat]
+
+            if len(next_words_left) > 1:
+                # OPTIMIZATION: Only evaluate valid answer candidates for ply 2
+                ply2_pool = valid_answers[next_words_left] if len(next_words_left) <= 20 else valid_answers
+                _, h2 = best_entropy_guess(ply2_pool, next_words_left, pattern_matrix, word_pool)
+                expected_second_ply_entropy += prob_pat * h2
+
+        total_lookahead_score = h1 + expected_second_ply_entropy
+
+        if total_lookahead_score > best_expected_entropy:
+            best_expected_entropy = total_lookahead_score
+            best_root_guess = word
+
+    return best_root_guess, best_expected_entropy
+
 
 print("Loading data arrays...")
 pattern_matrix = np.load("wordle_pattern_matrix.npy")
@@ -53,15 +99,28 @@ steps = []
 
 print(f"\n--- Auto-Solving Wordle #{wordle['id']} ---")
 
+FIRST_GUESS = "salet" # best starting word
+
 for turn in range(1, 7):
     pool_before = len(words_left)
 
-    if pool_before == 1:
+    if turn == 1:
+        # Bypass expensive Turn 1 full-dictionary evaluation
+        guess = FIRST_GUESS
+    elif pool_before == 1:
         guess = valid_answers[words_left[0]]
     else:
-        # guess only words from valid if less than threshold
-        candidates = valid_answers[words_left] if pool_before <= THRESHOLD else word_pool
-        guess, _ = best_entropy_guess(candidates, words_left, pattern_matrix, word_pool)
+        # Search valid answers if pool is small, or word_pool if still ambiguous
+        search_candidates = valid_answers[words_left] if pool_before <= 20 else valid_answers
+        guess, _ = beam_search_guess(
+            candidates=search_candidates,
+            words_left=words_left,
+            pattern_matrix=pattern_matrix,
+            word_pool=word_pool,
+            valid_answers=valid_answers,
+            beam_width=5,
+            depth=2,
+        )
 
     entropy_bits = solver.ShannonEntropy(solver.pattern_probabilities(guess, words_left, pattern_matrix, word_pool))
     pattern = solver.get_pattern(guess, wordle_solution)

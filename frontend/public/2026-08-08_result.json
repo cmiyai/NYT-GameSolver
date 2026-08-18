@@ -10,120 +10,14 @@
     "steps": [
       {
         "turn": 1,
-        "guess": "TARSE",
+        "guess": "SALET",
         "result": [
-          {
-            "letter": "T",
-            "status": "absent"
-          },
-          {
-            "letter": "A",
-            "status": "absent"
-          },
-          {
-            "letter": "R",
-            "status": "present"
-          },
           {
             "letter": "S",
             "status": "absent"
           },
           {
-            "letter": "E",
-            "status": "absent"
-          }
-        ],
-        "entropyBits": 5.97,
-        "remainingWords": 113,
-        "eliminatedPercentage": 96.8,
-        "topCandidates": [
-          {
-            "word": "GROIN",
-            "entropy": 4.77
-          },
-          {
-            "word": "CROON",
-            "entropy": 4.7
-          },
-          {
-            "word": "GRIND",
-            "entropy": 4.69
-          },
-          {
-            "word": "CRONY",
-            "entropy": 4.65
-          },
-          {
-            "word": "CROWD",
-            "entropy": 4.59
-          }
-        ]
-      },
-      {
-        "turn": 2,
-        "guess": "COIGN",
-        "result": [
-          {
-            "letter": "C",
-            "status": "absent"
-          },
-          {
-            "letter": "O",
-            "status": "absent"
-          },
-          {
-            "letter": "I",
-            "status": "correct"
-          },
-          {
-            "letter": "G",
-            "status": "absent"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
-          }
-        ],
-        "entropyBits": 4.93,
-        "remainingWords": 8,
-        "eliminatedPercentage": 92.9,
-        "topCandidates": [
-          {
-            "word": "BRILL",
-            "entropy": 2.16
-          },
-          {
-            "word": "DRILL",
-            "entropy": 2.16
-          },
-          {
-            "word": "FRILL",
-            "entropy": 2.16
-          },
-          {
-            "word": "KRILL",
-            "entropy": 2.16
-          },
-          {
-            "word": "PRIMP",
-            "entropy": 1.75
-          }
-        ]
-      },
-      {
-        "turn": 3,
-        "guess": "BADLY",
-        "result": [
-          {
-            "letter": "B",
-            "status": "absent"
-          },
-          {
             "letter": "A",
-            "status": "absent"
-          },
-          {
-            "letter": "D",
             "status": "absent"
           },
           {
@@ -131,13 +25,107 @@
             "status": "absent"
           },
           {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
             "letter": "Y",
             "status": "correct"
           }
         ],
-        "entropyBits": 2.5,
+        "entropyBits": 5.56,
+        "remainingWords": 2,
+        "eliminatedPercentage": 99.4,
+        "topCandidates": [
+          {
+            "word": "GRIMY",
+            "entropy": 1.0
+          },
+          {
+            "word": "PRIVY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GRIMY",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 87.5,
+        "eliminatedPercentage": 50.0,
         "topCandidates": [
           {
             "word": "PRIVY",

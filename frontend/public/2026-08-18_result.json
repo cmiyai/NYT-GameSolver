@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "wordle": {
-    "date": "2026-08-17",
-    "answer": "TRIBE",
+    "date": "2026-08-18",
+    "answer": "STRIP",
     "totalTurns": 3,
     "solved": true,
     "initialPoolSize": 3500,
@@ -14,7 +14,7 @@
         "result": [
           {
             "letter": "S",
-            "status": "absent"
+            "status": "correct"
           },
           {
             "letter": "A",
@@ -26,7 +26,7 @@
           },
           {
             "letter": "E",
-            "status": "present"
+            "status": "absent"
           },
           {
             "letter": "T",
@@ -34,86 +34,74 @@
           }
         ],
         "entropyBits": 5.89,
-        "remainingWords": 70,
-        "eliminatedPercentage": 98.0,
+        "remainingWords": 32,
+        "eliminatedPercentage": 99.1,
         "topCandidates": [
           {
-            "word": "TRITE",
-            "entropy": 4.81
+            "word": "STORY",
+            "entropy": 3.26
           },
           {
-            "word": "TRINE",
-            "entropy": 4.71
+            "word": "STOIC",
+            "entropy": 3.25
           },
           {
-            "word": "TRICE",
-            "entropy": 4.55
+            "word": "STINK",
+            "entropy": 3.2
           },
           {
-            "word": "TRIPE",
-            "entropy": 4.48
+            "word": "STONY",
+            "entropy": 3.17
           },
           {
-            "word": "TRIBE",
-            "entropy": 4.46
+            "word": "STOMP",
+            "entropy": 3.12
           }
         ]
       },
       {
         "turn": 2,
-        "guess": "RHINO",
+        "guess": "PORKY",
         "result": [
           {
-            "letter": "R",
+            "letter": "P",
             "status": "present"
-          },
-          {
-            "letter": "H",
-            "status": "absent"
-          },
-          {
-            "letter": "I",
-            "status": "correct"
-          },
-          {
-            "letter": "N",
-            "status": "absent"
           },
           {
             "letter": "O",
             "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
           }
         ],
-        "entropyBits": 4.69,
-        "remainingWords": 5,
-        "eliminatedPercentage": 92.9,
+        "entropyBits": 3.67,
+        "remainingWords": 1,
+        "eliminatedPercentage": 96.9,
         "topCandidates": [
           {
-            "word": "TRIBE",
-            "entropy": 1.37
-          },
-          {
-            "word": "TRICE",
-            "entropy": 1.37
-          },
-          {
-            "word": "TRIPE",
-            "entropy": 1.37
-          },
-          {
-            "word": "TRITE",
-            "entropy": 1.37
-          },
-          {
-            "word": "WRITE",
-            "entropy": 1.37
+            "word": "STRIP",
+            "entropy": 0.0
           }
         ]
       },
       {
         "turn": 3,
-        "guess": "TRIBE",
+        "guess": "STRIP",
         "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
           {
             "letter": "T",
             "status": "correct"
@@ -127,20 +115,16 @@
             "status": "correct"
           },
           {
-            "letter": "B",
-            "status": "correct"
-          },
-          {
-            "letter": "E",
+            "letter": "P",
             "status": "correct"
           }
         ],
-        "entropyBits": 1.37,
+        "entropyBits": 0.0,
         "remainingWords": 1,
-        "eliminatedPercentage": 80.0,
+        "eliminatedPercentage": 0.0,
         "topCandidates": [
           {
-            "word": "TRIBE",
+            "word": "STRIP",
             "entropy": 0.0
           }
         ]

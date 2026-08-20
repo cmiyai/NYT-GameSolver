@@ -1,0 +1,185 @@
+{
+  "date": "2026-08-20",
+  "wordle": {
+    "date": "2026-08-20",
+    "answer": "MURKY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.56,
+        "remainingWords": 7,
+        "eliminatedPercentage": 98.0,
+        "topCandidates": [
+          {
+            "word": "KIRBY",
+            "entropy": 2.24
+          },
+          {
+            "word": "MURKY",
+            "entropy": 2.24
+          },
+          {
+            "word": "RUMMY",
+            "entropy": 2.24
+          },
+          {
+            "word": "FURRY",
+            "entropy": 2.13
+          },
+          {
+            "word": "HURRY",
+            "entropy": 2.13
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "KIRBY",
+        "result": [
+          {
+            "letter": "K",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.24,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "MURKY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "MURKY",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "MURKY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

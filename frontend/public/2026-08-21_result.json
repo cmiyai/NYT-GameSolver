@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-21",
+  "wordle": {
+    "date": "2026-08-21",
+    "answer": "TRACE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 24,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "TRACE",
+            "entropy": 3.72
+          },
+          {
+            "word": "GRATE",
+            "entropy": 3.67
+          },
+          {
+            "word": "TEARY",
+            "entropy": 3.66
+          },
+          {
+            "word": "TRADE",
+            "entropy": 3.66
+          },
+          {
+            "word": "TEACH",
+            "entropy": 3.65
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHARD",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.8,
+        "remainingWords": 1,
+        "eliminatedPercentage": 95.8,
+        "topCandidates": [
+          {
+            "word": "TRACE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TRACE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TRACE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "date": "2026-08-22",
+  "wordle": {
+    "date": "2026-08-22",
+    "answer": "PRAWN",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 163,
+        "eliminatedPercentage": 95.3,
+        "topCandidates": [
+          {
+            "word": "DRAIN",
+            "entropy": 5.17
+          },
+          {
+            "word": "ACORN",
+            "entropy": 5.15
+          },
+          {
+            "word": "GRAIN",
+            "entropy": 5.14
+          },
+          {
+            "word": "ADORN",
+            "entropy": 5.12
+          },
+          {
+            "word": "DRACO",
+            "entropy": 5.06
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "BRONC",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.19,
+        "remainingWords": 4,
+        "eliminatedPercentage": 97.5,
+        "topCandidates": [
+          {
+            "word": "DRAIN",
+            "entropy": 2.0
+          },
+          {
+            "word": "DRAWN",
+            "entropy": 2.0
+          },
+          {
+            "word": "GRAIN",
+            "entropy": 1.5
+          },
+          {
+            "word": "PRAWN",
+            "entropy": 1.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DRAIN",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "PRAWN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "PRAWN",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "PRAWN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

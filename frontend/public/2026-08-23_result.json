@@ -1,0 +1,185 @@
+{
+  "date": "2026-08-23",
+  "wordle": {
+    "date": "2026-08-23",
+    "answer": "OLDEN",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 56,
+        "eliminatedPercentage": 98.4,
+        "topCandidates": [
+          {
+            "word": "LEVER",
+            "entropy": 3.86
+          },
+          {
+            "word": "LEPER",
+            "entropy": 3.75
+          },
+          {
+            "word": "REVEL",
+            "entropy": 3.74
+          },
+          {
+            "word": "LOVER",
+            "entropy": 3.64
+          },
+          {
+            "word": "REPEL",
+            "entropy": 3.61
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "VIGOR",
+        "result": [
+          {
+            "letter": "V",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.84,
+        "remainingWords": 6,
+        "eliminatedPercentage": 89.3,
+        "topCandidates": [
+          {
+            "word": "YODEL",
+            "entropy": 2.58
+          },
+          {
+            "word": "DOWEL",
+            "entropy": 2.25
+          },
+          {
+            "word": "MODEL",
+            "entropy": 2.25
+          },
+          {
+            "word": "OLDEN",
+            "entropy": 1.92
+          },
+          {
+            "word": "BOWEL",
+            "entropy": 1.79
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "YODEL",
+        "result": [
+          {
+            "letter": "Y",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 2.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 83.3,
+        "topCandidates": [
+          {
+            "word": "OLDEN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "OLDEN",
+        "result": [
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "OLDEN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "date": "2026-08-25",
+  "wordle": {
+    "date": "2026-08-25",
+    "answer": "CLICK",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 115,
+        "eliminatedPercentage": 96.7,
+        "topCandidates": [
+          {
+            "word": "COULD",
+            "entropy": 4.84
+          },
+          {
+            "word": "CLOUD",
+            "entropy": 4.76
+          },
+          {
+            "word": "BUILD",
+            "entropy": 4.64
+          },
+          {
+            "word": "CLING",
+            "entropy": 4.58
+          },
+          {
+            "word": "BLIND",
+            "entropy": 4.56
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "BOUND",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.78,
+        "remainingWords": 19,
+        "eliminatedPercentage": 83.5,
+        "topCandidates": [
+          {
+            "word": "FRILL",
+            "entropy": 3.83
+          },
+          {
+            "word": "GRILL",
+            "entropy": 3.79
+          },
+          {
+            "word": "KRILL",
+            "entropy": 3.72
+          },
+          {
+            "word": "CHILI",
+            "entropy": 3.68
+          },
+          {
+            "word": "CHILL",
+            "entropy": 3.68
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FRILL",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.83,
+        "remainingWords": 1,
+        "eliminatedPercentage": 94.7,
+        "topCandidates": [
+          {
+            "word": "CLICK",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "CLICK",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "CLICK",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

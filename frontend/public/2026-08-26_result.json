@@ -1,0 +1,180 @@
+{
+  "date": "2026-08-26",
+  "wordle": {
+    "date": "2026-08-26",
+    "answer": "CAPON",
+    "totalTurns": 4,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 155,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "CARNY",
+            "entropy": 4.46
+          },
+          {
+            "word": "MARON",
+            "entropy": 4.29
+          },
+          {
+            "word": "MANOR",
+            "entropy": 4.24
+          },
+          {
+            "word": "CARON",
+            "entropy": 4.24
+          },
+          {
+            "word": "CAIRN",
+            "entropy": 4.21
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NORMA",
+        "result": [
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 5,
+        "eliminatedPercentage": 96.8,
+        "topCandidates": [
+          {
+            "word": "BACON",
+            "entropy": 2.32
+          },
+          {
+            "word": "BANCO",
+            "entropy": 2.32
+          },
+          {
+            "word": "BANJO",
+            "entropy": 2.32
+          },
+          {
+            "word": "CANON",
+            "entropy": 2.32
+          },
+          {
+            "word": "WAGON",
+            "entropy": 1.52
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BACON",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.32,
+        "remainingWords": 1,
+        "eliminatedPercentage": 80.0,
+        "topCandidates": [
+          {
+            "word": "CANON",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "CANON",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

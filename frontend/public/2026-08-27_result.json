@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-27",
+  "wordle": {
+    "date": "2026-08-27",
+    "answer": "UNCUT",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 49,
+        "eliminatedPercentage": 98.6,
+        "topCandidates": [
+          {
+            "word": "GRUNT",
+            "entropy": 4.16
+          },
+          {
+            "word": "INGOT",
+            "entropy": 4.12
+          },
+          {
+            "word": "GROUT",
+            "entropy": 4.04
+          },
+          {
+            "word": "COUNT",
+            "entropy": 4.04
+          },
+          {
+            "word": "POINT",
+            "entropy": 3.98
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "ROUND",
+        "result": [
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 3,
+        "eliminatedPercentage": 93.9,
+        "topCandidates": [
+          {
+            "word": "INPUT",
+            "entropy": 1.58
+          },
+          {
+            "word": "UNCUT",
+            "entropy": 1.58
+          },
+          {
+            "word": "UNFIT",
+            "entropy": 1.58
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "INPUT",
+        "result": [
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "UNCUT",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "UNCUT",
+        "result": [
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "UNCUT",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

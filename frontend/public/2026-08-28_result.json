@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-28",
+  "wordle": {
+    "date": "2026-08-28",
+    "answer": "TWEEN",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 33,
+        "eliminatedPercentage": 99.1,
+        "topCandidates": [
+          {
+            "word": "OUTER",
+            "entropy": 3.76
+          },
+          {
+            "word": "TONER",
+            "entropy": 3.6
+          },
+          {
+            "word": "INTER",
+            "entropy": 3.52
+          },
+          {
+            "word": "ENTER",
+            "entropy": 3.51
+          },
+          {
+            "word": "OTTER",
+            "entropy": 3.47
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "MINOR",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.85,
+        "remainingWords": 1,
+        "eliminatedPercentage": 97.0,
+        "topCandidates": [
+          {
+            "word": "TWEEN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TWEEN",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TWEEN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

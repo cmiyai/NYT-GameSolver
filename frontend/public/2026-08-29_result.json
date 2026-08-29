@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-29",
+  "wordle": {
+    "date": "2026-08-29",
+    "answer": "BLOOD",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 115,
+        "eliminatedPercentage": 96.7,
+        "topCandidates": [
+          {
+            "word": "COULD",
+            "entropy": 4.84
+          },
+          {
+            "word": "CLOUD",
+            "entropy": 4.76
+          },
+          {
+            "word": "BUILD",
+            "entropy": 4.64
+          },
+          {
+            "word": "CLING",
+            "entropy": 4.58
+          },
+          {
+            "word": "BLIND",
+            "entropy": 4.56
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "BOUND",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.78,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.1,
+        "topCandidates": [
+          {
+            "word": "BLOOD",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BLOOD",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "BLOOD",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

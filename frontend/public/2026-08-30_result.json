@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-30",
+  "wordle": {
+    "date": "2026-08-30",
+    "answer": "INTEL",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 6,
+        "eliminatedPercentage": 99.8,
+        "topCandidates": [
+          {
+            "word": "HOTEL",
+            "entropy": 2.25
+          },
+          {
+            "word": "MOTEL",
+            "entropy": 2.25
+          },
+          {
+            "word": "TOWEL",
+            "entropy": 1.92
+          },
+          {
+            "word": "BETEL",
+            "entropy": 1.79
+          },
+          {
+            "word": "INTEL",
+            "entropy": 1.79
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "HOTEL",
+        "result": [
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.25,
+        "remainingWords": 2,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "BETEL",
+            "entropy": 1.0
+          },
+          {
+            "word": "INTEL",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BETEL",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "INTEL",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "INTEL",
+        "result": [
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "INTEL",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "date": "2026-08-31",
+  "wordle": {
+    "date": "2026-08-31",
+    "answer": "MOUND",
+    "totalTurns": 6,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.56,
+        "remainingWords": 12,
+        "eliminatedPercentage": 96.5,
+        "topCandidates": [
+          {
+            "word": "BOING",
+            "entropy": 2.45
+          },
+          {
+            "word": "BOINK",
+            "entropy": 2.45
+          },
+          {
+            "word": "BOUND",
+            "entropy": 2.45
+          },
+          {
+            "word": "FOUND",
+            "entropy": 2.22
+          },
+          {
+            "word": "HOUND",
+            "entropy": 2.22
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FOUND",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.22,
+        "remainingWords": 5,
+        "eliminatedPercentage": 58.3,
+        "topCandidates": [
+          {
+            "word": "BOUND",
+            "entropy": 0.72
+          },
+          {
+            "word": "HOUND",
+            "entropy": 0.72
+          },
+          {
+            "word": "MOUND",
+            "entropy": 0.72
+          },
+          {
+            "word": "POUND",
+            "entropy": 0.72
+          },
+          {
+            "word": "WOUND",
+            "entropy": 0.72
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BOUND",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.72,
+        "remainingWords": 4,
+        "eliminatedPercentage": 20.0,
+        "topCandidates": [
+          {
+            "word": "HOUND",
+            "entropy": 0.81
+          },
+          {
+            "word": "MOUND",
+            "entropy": 0.81
+          },
+          {
+            "word": "POUND",
+            "entropy": 0.81
+          },
+          {
+            "word": "WOUND",
+            "entropy": 0.81
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "HOUND",
+        "result": [
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.81,
+        "remainingWords": 3,
+        "eliminatedPercentage": 25.0,
+        "topCandidates": [
+          {
+            "word": "MOUND",
+            "entropy": 0.92
+          },
+          {
+            "word": "POUND",
+            "entropy": 0.92
+          },
+          {
+            "word": "WOUND",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 6,
+        "guess": "MOUND",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.92,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "MOUND",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

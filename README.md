@@ -50,6 +50,6 @@ pip install -r requirements.txt
 
 Run:
 ```bash
-# Add your specific run commands here
-# python main.py
+# Solve today's wordle or add a custom word for the solver
+python wordle/solve_wordle.py
 ```

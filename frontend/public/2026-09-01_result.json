@@ -1,0 +1,224 @@
+{
+  "date": "2026-09-01",
+  "wordle": {
+    "date": "2026-09-01",
+    "answer": "REMIX",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 12,
+        "eliminatedPercentage": 95.0,
+        "topCandidates": [
+          {
+            "word": "CURIE",
+            "entropy": 3.25
+          },
+          {
+            "word": "EQUIP",
+            "entropy": 3.08
+          },
+          {
+            "word": "EERIE",
+            "entropy": 3.08
+          },
+          {
+            "word": "PIECE",
+            "entropy": 3.08
+          },
+          {
+            "word": "PIQUE",
+            "entropy": 3.08
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CURIE",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.25,
+        "remainingWords": 2,
+        "eliminatedPercentage": 83.3,
+        "topCandidates": [
+          {
+            "word": "KEFIR",
+            "entropy": 1.0
+          },
+          {
+            "word": "REMIX",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "KEFIR",
+        "result": [
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "REMIX",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "REMIX",
+        "result": [
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "X",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "REMIX",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

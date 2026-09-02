@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-02",
+  "wordle": {
+    "date": "2026-09-02",
+    "answer": "RULER",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 11,
+        "eliminatedPercentage": 99.7,
+        "topCandidates": [
+          {
+            "word": "RILEY",
+            "entropy": 2.85
+          },
+          {
+            "word": "FILER",
+            "entropy": 2.55
+          },
+          {
+            "word": "IDLER",
+            "entropy": 2.4
+          },
+          {
+            "word": "RILED",
+            "entropy": 2.4
+          },
+          {
+            "word": "KILEY",
+            "entropy": 2.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "FILER",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.55,
+        "remainingWords": 1,
+        "eliminatedPercentage": 90.9,
+        "topCandidates": [
+          {
+            "word": "RULER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "RULER",
+        "result": [
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "RULER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

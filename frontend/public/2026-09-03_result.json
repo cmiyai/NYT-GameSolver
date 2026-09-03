@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-03",
+  "wordle": {
+    "date": "2026-09-03",
+    "answer": "JOIST",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 26,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "HORST",
+            "entropy": 3.5
+          },
+          {
+            "word": "WORST",
+            "entropy": 3.46
+          },
+          {
+            "word": "FROST",
+            "entropy": 3.44
+          },
+          {
+            "word": "HOIST",
+            "entropy": 3.43
+          },
+          {
+            "word": "PROST",
+            "entropy": 3.18
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHOIR",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.77,
+        "remainingWords": 3,
+        "eliminatedPercentage": 88.5,
+        "topCandidates": [
+          {
+            "word": "FOIST",
+            "entropy": 0.92
+          },
+          {
+            "word": "JOIST",
+            "entropy": 0.92
+          },
+          {
+            "word": "MOIST",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FOIST",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 33.3,
+        "topCandidates": [
+          {
+            "word": "JOIST",
+            "entropy": 1.0
+          },
+          {
+            "word": "MOIST",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "JOIST",
+        "result": [
+          {
+            "letter": "J",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "JOIST",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

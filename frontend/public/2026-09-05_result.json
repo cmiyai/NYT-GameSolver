@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-05",
+  "wordle": {
+    "date": "2026-09-05",
+    "answer": "SOUPY",
+    "totalTurns": 4,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 79,
+        "eliminatedPercentage": 97.7,
+        "topCandidates": [
+          {
+            "word": "SCION",
+            "entropy": 4.32
+          },
+          {
+            "word": "SPINY",
+            "entropy": 4.29
+          },
+          {
+            "word": "SPUNK",
+            "entropy": 4.27
+          },
+          {
+            "word": "SPORK",
+            "entropy": 4.09
+          },
+          {
+            "word": "SHINY",
+            "entropy": 4.06
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CORNY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.6,
+        "remainingWords": 2,
+        "eliminatedPercentage": 97.5,
+        "topCandidates": [
+          {
+            "word": "SOGGY",
+            "entropy": 1.0
+          },
+          {
+            "word": "SOPPY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SOGGY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "SOPPY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SOPPY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

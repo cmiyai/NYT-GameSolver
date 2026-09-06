@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-06",
+  "wordle": {
+    "date": "2026-09-06",
+    "answer": "BEIGE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 4,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "GRIME",
+            "entropy": 2.0
+          },
+          {
+            "word": "GRIPE",
+            "entropy": 2.0
+          },
+          {
+            "word": "BEIGE",
+            "entropy": 1.5
+          },
+          {
+            "word": "WEIGH",
+            "entropy": 1.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GRIME",
+        "result": [
+          {
+            "letter": "G",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "BEIGE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BEIGE",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "BEIGE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

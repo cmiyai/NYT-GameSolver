@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-12",
+  "wordle": {
+    "date": "2026-09-12",
+    "answer": "NIFTY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 117,
+        "eliminatedPercentage": 96.7,
+        "topCandidates": [
+          {
+            "word": "NORTH",
+            "entropy": 5.1
+          },
+          {
+            "word": "TROTH",
+            "entropy": 4.99
+          },
+          {
+            "word": "MIRTH",
+            "entropy": 4.97
+          },
+          {
+            "word": "TORCH",
+            "entropy": 4.97
+          },
+          {
+            "word": "TOUCH",
+            "entropy": 4.95
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NORTH",
+        "result": [
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.1,
+        "remainingWords": 2,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "NIFTY",
+            "entropy": 1.0
+          },
+          {
+            "word": "NUTTY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "NIFTY",
+        "result": [
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "NIFTY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-15",
+  "wordle": {
+    "date": "2026-09-15",
+    "answer": "DEALT",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 8,
+        "eliminatedPercentage": 99.8,
+        "topCandidates": [
+          {
+            "word": "LEAPT",
+            "entropy": 2.41
+          },
+          {
+            "word": "PLEAT",
+            "entropy": 2.16
+          },
+          {
+            "word": "LEANT",
+            "entropy": 2.0
+          },
+          {
+            "word": "BLEAT",
+            "entropy": 1.75
+          },
+          {
+            "word": "CLEAT",
+            "entropy": 1.75
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "LEAPT",
+        "result": [
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.41,
+        "remainingWords": 1,
+        "eliminatedPercentage": 87.5,
+        "topCandidates": [
+          {
+            "word": "DEALT",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DEALT",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "DEALT",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

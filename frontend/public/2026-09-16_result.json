@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-16",
+  "wordle": {
+    "date": "2026-09-16",
+    "answer": "WISPY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 117,
+        "eliminatedPercentage": 96.7,
+        "topCandidates": [
+          {
+            "word": "HOCUS",
+            "entropy": 4.81
+          },
+          {
+            "word": "CORPS",
+            "entropy": 4.72
+          },
+          {
+            "word": "CORKS",
+            "entropy": 4.72
+          },
+          {
+            "word": "PIOUS",
+            "entropy": 4.71
+          },
+          {
+            "word": "CRIPS",
+            "entropy": 4.69
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CROUP",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "P",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.86,
+        "remainingWords": 5,
+        "eliminatedPercentage": 95.7,
+        "topCandidates": [
+          {
+            "word": "GIPSY",
+            "entropy": 2.32
+          },
+          {
+            "word": "GYPSY",
+            "entropy": 2.32
+          },
+          {
+            "word": "PISSY",
+            "entropy": 2.32
+          },
+          {
+            "word": "WISPY",
+            "entropy": 2.32
+          },
+          {
+            "word": "WIMPS",
+            "entropy": 1.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GIPSY",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.32,
+        "remainingWords": 1,
+        "eliminatedPercentage": 80.0,
+        "topCandidates": [
+          {
+            "word": "WISPY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "WISPY",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WISPY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

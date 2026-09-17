@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-17",
+  "wordle": {
+    "date": "2026-09-17",
+    "answer": "THETA",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 24,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "TRACE",
+            "entropy": 3.72
+          },
+          {
+            "word": "GRATE",
+            "entropy": 3.67
+          },
+          {
+            "word": "TEARY",
+            "entropy": 3.66
+          },
+          {
+            "word": "TRADE",
+            "entropy": 3.66
+          },
+          {
+            "word": "TEACH",
+            "entropy": 3.65
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHARD",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.8,
+        "remainingWords": 1,
+        "eliminatedPercentage": 95.8,
+        "topCandidates": [
+          {
+            "word": "THETA",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "THETA",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "THETA",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

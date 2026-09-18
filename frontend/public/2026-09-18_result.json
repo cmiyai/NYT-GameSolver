@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-18",
+  "wordle": {
+    "date": "2026-09-18",
+    "answer": "SNOWY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 79,
+        "eliminatedPercentage": 97.7,
+        "topCandidates": [
+          {
+            "word": "SCION",
+            "entropy": 4.32
+          },
+          {
+            "word": "SPINY",
+            "entropy": 4.29
+          },
+          {
+            "word": "SPUNK",
+            "entropy": 4.27
+          },
+          {
+            "word": "SPORK",
+            "entropy": 4.09
+          },
+          {
+            "word": "SHINY",
+            "entropy": 4.06
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CORNY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.6,
+        "remainingWords": 1,
+        "eliminatedPercentage": 98.7,
+        "topCandidates": [
+          {
+            "word": "SNOWY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SNOWY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SNOWY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

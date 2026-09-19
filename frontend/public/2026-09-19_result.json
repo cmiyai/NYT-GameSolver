@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-19",
+  "wordle": {
+    "date": "2026-09-19",
+    "answer": "WAKEN",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 40,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "PAGER",
+            "entropy": 2.93
+          },
+          {
+            "word": "CAPER",
+            "entropy": 2.9
+          },
+          {
+            "word": "PARER",
+            "entropy": 2.85
+          },
+          {
+            "word": "PAYER",
+            "entropy": 2.85
+          },
+          {
+            "word": "CARER",
+            "entropy": 2.82
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "ROCKY",
+        "result": [
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.49,
+        "remainingWords": 2,
+        "eliminatedPercentage": 95.0,
+        "topCandidates": [
+          {
+            "word": "NAKED",
+            "entropy": 1.0
+          },
+          {
+            "word": "WAKEN",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "NAKED",
+        "result": [
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "WAKEN",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "WAKEN",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WAKEN",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

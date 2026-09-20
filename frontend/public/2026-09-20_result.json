@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-20",
+  "wordle": {
+    "date": "2026-09-20",
+    "answer": "SHONE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 51,
+        "eliminatedPercentage": 98.5,
+        "topCandidates": [
+          {
+            "word": "SEINE",
+            "entropy": 4.0
+          },
+          {
+            "word": "SPIRE",
+            "entropy": 3.82
+          },
+          {
+            "word": "SPINE",
+            "entropy": 3.81
+          },
+          {
+            "word": "SNIPE",
+            "entropy": 3.78
+          },
+          {
+            "word": "SCENE",
+            "entropy": 3.75
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PERCE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.24,
+        "remainingWords": 7,
+        "eliminatedPercentage": 86.3,
+        "topCandidates": [
+          {
+            "word": "SHINE",
+            "entropy": 2.81
+          },
+          {
+            "word": "SWINE",
+            "entropy": 2.52
+          },
+          {
+            "word": "SHONE",
+            "entropy": 2.52
+          },
+          {
+            "word": "SNIDE",
+            "entropy": 2.24
+          },
+          {
+            "word": "SHOVE",
+            "entropy": 2.13
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SHINE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.81,
+        "remainingWords": 1,
+        "eliminatedPercentage": 85.7,
+        "topCandidates": [
+          {
+            "word": "SHONE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SHONE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SHONE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

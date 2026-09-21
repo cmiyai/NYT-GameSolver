@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-21",
+  "wordle": {
+    "date": "2026-09-21",
+    "answer": "PAGER",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 40,
+        "eliminatedPercentage": 98.9,
+        "topCandidates": [
+          {
+            "word": "PAGER",
+            "entropy": 2.93
+          },
+          {
+            "word": "CAPER",
+            "entropy": 2.9
+          },
+          {
+            "word": "PARER",
+            "entropy": 2.85
+          },
+          {
+            "word": "PAYER",
+            "entropy": 2.85
+          },
+          {
+            "word": "CARER",
+            "entropy": 2.82
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "ROCKY",
+        "result": [
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.49,
+        "remainingWords": 10,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "PAGER",
+            "entropy": 2.52
+          },
+          {
+            "word": "WAGER",
+            "entropy": 2.52
+          },
+          {
+            "word": "EAGER",
+            "entropy": 2.12
+          },
+          {
+            "word": "GAMER",
+            "entropy": 2.05
+          },
+          {
+            "word": "GAZER",
+            "entropy": 2.05
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "PAGER",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.52,
+        "remainingWords": 1,
+        "eliminatedPercentage": 90.0,
+        "topCandidates": [
+          {
+            "word": "PAGER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-25",
+  "wordle": {
+    "date": "2026-09-25",
+    "answer": "COPSE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 76,
+        "eliminatedPercentage": 97.8,
+        "topCandidates": [
+          {
+            "word": "REUSE",
+            "entropy": 4.57
+          },
+          {
+            "word": "NURSE",
+            "entropy": 4.39
+          },
+          {
+            "word": "PEERS",
+            "entropy": 4.34
+          },
+          {
+            "word": "PURSE",
+            "entropy": 4.34
+          },
+          {
+            "word": "ROUSE",
+            "entropy": 4.32
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PRONE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.43,
+        "remainingWords": 1,
+        "eliminatedPercentage": 98.7,
+        "topCandidates": [
+          {
+            "word": "COPSE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "COPSE",
+        "result": [
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "COPSE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

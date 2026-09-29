@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-29",
+  "wordle": {
+    "date": "2026-09-29",
+    "answer": "SCUBA",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 51,
+        "eliminatedPercentage": 98.5,
+        "topCandidates": [
+          {
+            "word": "SCAMP",
+            "entropy": 3.48
+          },
+          {
+            "word": "SWAMP",
+            "entropy": 3.44
+          },
+          {
+            "word": "SHANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPARK",
+            "entropy": 3.4
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PUNCH",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.96,
+        "remainingWords": 1,
+        "eliminatedPercentage": 98.0,
+        "topCandidates": [
+          {
+            "word": "SCUBA",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SCUBA",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SCUBA",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-07",
+  "wordle": {
+    "date": "2026-10-07",
+    "answer": "PROVE",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 16,
+        "eliminatedPercentage": 93.3,
+        "topCandidates": [
+          {
+            "word": "CRORE",
+            "entropy": 3.5
+          },
+          {
+            "word": "EPOCH",
+            "entropy": 3.5
+          },
+          {
+            "word": "PROBE",
+            "entropy": 3.5
+          },
+          {
+            "word": "PROVE",
+            "entropy": 3.45
+          },
+          {
+            "word": "CHORE",
+            "entropy": 3.38
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "CRORE",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 3.5,
+        "remainingWords": 4,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "PROBE",
+            "entropy": 2.0
+          },
+          {
+            "word": "BROKE",
+            "entropy": 1.5
+          },
+          {
+            "word": "PROVE",
+            "entropy": 1.5
+          },
+          {
+            "word": "FROZE",
+            "entropy": 0.81
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "PROBE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "PROVE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "PROVE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "PROVE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

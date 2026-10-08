@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-08",
+  "wordle": {
+    "date": "2026-10-08",
+    "answer": "STREW",
+    "totalTurns": 2,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 5,
+        "eliminatedPercentage": 99.9,
+        "topCandidates": [
+          {
+            "word": "STREP",
+            "entropy": 1.92
+          },
+          {
+            "word": "STEED",
+            "entropy": 1.37
+          },
+          {
+            "word": "STEEN",
+            "entropy": 1.37
+          },
+          {
+            "word": "STEEP",
+            "entropy": 1.37
+          },
+          {
+            "word": "STEER",
+            "entropy": 1.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "STREP",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 1.92,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-10",
+  "wordle": {
+    "date": "2026-10-10",
+    "answer": "BUMPY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.56,
+        "remainingWords": 44,
+        "eliminatedPercentage": 87.2,
+        "topCandidates": [
+          {
+            "word": "PUDGY",
+            "entropy": 4.08
+          },
+          {
+            "word": "DUMPY",
+            "entropy": 3.99
+          },
+          {
+            "word": "GIMPY",
+            "entropy": 3.87
+          },
+          {
+            "word": "BUMPY",
+            "entropy": 3.67
+          },
+          {
+            "word": "JUDGY",
+            "entropy": 3.53
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "PUDGY",
+        "result": [
+          {
+            "letter": "P",
+            "status": "present"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.08,
+        "remainingWords": 2,
+        "eliminatedPercentage": 95.5,
+        "topCandidates": [
+          {
+            "word": "BUMPY",
+            "entropy": 1.0
+          },
+          {
+            "word": "JUMPY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BUMPY",
+        "result": [
+          {
+            "letter": "B",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "BUMPY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

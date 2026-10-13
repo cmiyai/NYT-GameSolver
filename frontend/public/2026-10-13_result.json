@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-13",
+  "wordle": {
+    "date": "2026-10-13",
+    "answer": "WIDER",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 155,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "DINER",
+            "entropy": 4.43
+          },
+          {
+            "word": "ENDER",
+            "entropy": 4.16
+          },
+          {
+            "word": "CIDER",
+            "entropy": 4.13
+          },
+          {
+            "word": "RIDER",
+            "entropy": 4.11
+          },
+          {
+            "word": "WIDER",
+            "entropy": 4.11
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DROWN",
+        "result": [
+          {
+            "letter": "D",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "W",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.75,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.4,
+        "topCandidates": [
+          {
+            "word": "WIDER",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "WIDER",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WIDER",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-15",
+  "wordle": {
+    "date": "2026-10-15",
+    "answer": "DUNCE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 1,
+        "eliminatedPercentage": 99.6,
+        "topCandidates": [
+          {
+            "word": "DUNCE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DUNCE",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "DUNCE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

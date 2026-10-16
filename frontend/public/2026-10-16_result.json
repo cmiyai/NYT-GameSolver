@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-16",
+  "wordle": {
+    "date": "2026-10-16",
+    "answer": "SHADY",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 51,
+        "eliminatedPercentage": 98.5,
+        "topCandidates": [
+          {
+            "word": "SCAMP",
+            "entropy": 3.48
+          },
+          {
+            "word": "SWAMP",
+            "entropy": 3.44
+          },
+          {
+            "word": "SHANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPARK",
+            "entropy": 3.4
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PUNCH",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.96,
+        "remainingWords": 5,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "SHADY",
+            "entropy": 2.32
+          },
+          {
+            "word": "SHAKY",
+            "entropy": 2.32
+          },
+          {
+            "word": "SHARD",
+            "entropy": 2.32
+          },
+          {
+            "word": "SHARK",
+            "entropy": 2.32
+          },
+          {
+            "word": "SHIVA",
+            "entropy": 0.72
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SHIVA",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "V",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 0.72,
+        "remainingWords": 4,
+        "eliminatedPercentage": 20.0,
+        "topCandidates": [
+          {
+            "word": "SHADY",
+            "entropy": 2.0
+          },
+          {
+            "word": "SHAKY",
+            "entropy": 2.0
+          },
+          {
+            "word": "SHARD",
+            "entropy": 2.0
+          },
+          {
+            "word": "SHARK",
+            "entropy": 2.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SHADY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "SHADY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

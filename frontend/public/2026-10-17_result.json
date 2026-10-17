@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-17",
+  "wordle": {
+    "date": "2026-10-17",
+    "answer": "GAFFE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 31,
+        "eliminatedPercentage": 99.1,
+        "topCandidates": [
+          {
+            "word": "RANGE",
+            "entropy": 3.23
+          },
+          {
+            "word": "MARGE",
+            "entropy": 3.21
+          },
+          {
+            "word": "MANGE",
+            "entropy": 3.02
+          },
+          {
+            "word": "CADRE",
+            "entropy": 3.01
+          },
+          {
+            "word": "RANCE",
+            "entropy": 3.0
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "GRIND",
+        "result": [
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 4.08,
+        "remainingWords": 3,
+        "eliminatedPercentage": 90.3,
+        "topCandidates": [
+          {
+            "word": "GAUGE",
+            "entropy": 1.58
+          },
+          {
+            "word": "GAUZE",
+            "entropy": 1.58
+          },
+          {
+            "word": "GAFFE",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GAUGE",
+        "result": [
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "GAFFE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "GAFFE",
+        "result": [
+          {
+            "letter": "G",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "correct"
+          },
+          {
+            "letter": "F",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "GAFFE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

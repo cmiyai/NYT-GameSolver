@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-20",
+  "wordle": {
+    "date": "2026-10-20",
+    "answer": "WREST",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 7,
+        "eliminatedPercentage": 99.8,
+        "topCandidates": [
+          {
+            "word": "CREST",
+            "entropy": 2.24
+          },
+          {
+            "word": "CHEST",
+            "entropy": 2.13
+          },
+          {
+            "word": "GUEST",
+            "entropy": 1.84
+          },
+          {
+            "word": "QUEST",
+            "entropy": 1.84
+          },
+          {
+            "word": "WREST",
+            "entropy": 1.84
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHEST",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.13,
+        "remainingWords": 3,
+        "eliminatedPercentage": 57.1,
+        "topCandidates": [
+          {
+            "word": "GUEST",
+            "entropy": 1.58
+          },
+          {
+            "word": "QUEST",
+            "entropy": 1.58
+          },
+          {
+            "word": "WREST",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GUEST",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "WREST",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "WREST",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WREST",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

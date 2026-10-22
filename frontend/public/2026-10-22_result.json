@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-22",
+  "wordle": {
+    "date": "2026-10-22",
+    "answer": "RESET",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 5,
+        "eliminatedPercentage": 99.9,
+        "topCandidates": [
+          {
+            "word": "UNSET",
+            "entropy": 1.92
+          },
+          {
+            "word": "BESET",
+            "entropy": 1.37
+          },
+          {
+            "word": "ONSET",
+            "entropy": 1.37
+          },
+          {
+            "word": "RESET",
+            "entropy": 1.37
+          },
+          {
+            "word": "UPSET",
+            "entropy": 1.37
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "UNSET",
+        "result": [
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 60.0,
+        "topCandidates": [
+          {
+            "word": "BESET",
+            "entropy": 1.0
+          },
+          {
+            "word": "RESET",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "BESET",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "RESET",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "RESET",
+        "result": [
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "RESET",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

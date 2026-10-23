@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-23",
+  "wordle": {
+    "date": "2026-10-23",
+    "answer": "TRILL",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 14,
+        "eliminatedPercentage": 99.6,
+        "topCandidates": [
+          {
+            "word": "HOTLY",
+            "entropy": 3.24
+          },
+          {
+            "word": "PLUTO",
+            "entropy": 3.24
+          },
+          {
+            "word": "ZLOTY",
+            "entropy": 3.13
+          },
+          {
+            "word": "BLITZ",
+            "entropy": 3.04
+          },
+          {
+            "word": "GLITZ",
+            "entropy": 3.04
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "HOTLY",
+        "result": [
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.24,
+        "remainingWords": 1,
+        "eliminatedPercentage": 92.9,
+        "topCandidates": [
+          {
+            "word": "TRILL",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TRILL",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TRILL",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

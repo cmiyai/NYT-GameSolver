@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-25",
+  "wordle": {
+    "date": "2026-10-25",
+    "answer": "DRESS",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 76,
+        "eliminatedPercentage": 97.8,
+        "topCandidates": [
+          {
+            "word": "REUSE",
+            "entropy": 4.57
+          },
+          {
+            "word": "NURSE",
+            "entropy": 4.39
+          },
+          {
+            "word": "PEERS",
+            "entropy": 4.34
+          },
+          {
+            "word": "PURSE",
+            "entropy": 4.34
+          },
+          {
+            "word": "ROUSE",
+            "entropy": 4.32
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PRONE",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.43,
+        "remainingWords": 5,
+        "eliminatedPercentage": 93.4,
+        "topCandidates": [
+          {
+            "word": "DRESS",
+            "entropy": 2.32
+          },
+          {
+            "word": "CRESS",
+            "entropy": 1.92
+          },
+          {
+            "word": "DREGS",
+            "entropy": 1.92
+          },
+          {
+            "word": "FRESH",
+            "entropy": 1.52
+          },
+          {
+            "word": "BREWS",
+            "entropy": 1.37
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DRESS",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.32,
+        "remainingWords": 1,
+        "eliminatedPercentage": 80.0,
+        "topCandidates": [
+          {
+            "word": "DRESS",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

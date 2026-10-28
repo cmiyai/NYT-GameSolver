@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-28",
+  "wordle": {
+    "date": "2026-10-28",
+    "answer": "GRIST",
+    "totalTurns": 4,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 26,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "HORST",
+            "entropy": 3.5
+          },
+          {
+            "word": "WORST",
+            "entropy": 3.46
+          },
+          {
+            "word": "FROST",
+            "entropy": 3.44
+          },
+          {
+            "word": "HOIST",
+            "entropy": 3.43
+          },
+          {
+            "word": "PROST",
+            "entropy": 3.18
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHOIR",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.77,
+        "remainingWords": 2,
+        "eliminatedPercentage": 92.3,
+        "topCandidates": [
+          {
+            "word": "FIRST",
+            "entropy": 1.0
+          },
+          {
+            "word": "WRIST",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "FIRST",
+        "result": [
+          {
+            "letter": "F",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "WRIST",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "WRIST",
+        "result": [
+          {
+            "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

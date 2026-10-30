@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-30",
+  "wordle": {
+    "date": "2026-10-30",
+    "answer": "SLIDE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 12,
+        "eliminatedPercentage": 99.7,
+        "topCandidates": [
+          {
+            "word": "SMELL",
+            "entropy": 2.52
+          },
+          {
+            "word": "SLIME",
+            "entropy": 2.45
+          },
+          {
+            "word": "SMILE",
+            "entropy": 2.45
+          },
+          {
+            "word": "SPELL",
+            "entropy": 2.36
+          },
+          {
+            "word": "SIDLE",
+            "entropy": 2.13
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "SMELL",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.52,
+        "remainingWords": 3,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "SLICE",
+            "entropy": 1.58
+          },
+          {
+            "word": "SLIDE",
+            "entropy": 1.58
+          },
+          {
+            "word": "SLOPE",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SLICE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "SLIDE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "SLIDE",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SLIDE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

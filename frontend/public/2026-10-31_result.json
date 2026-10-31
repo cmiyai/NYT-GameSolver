@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-31",
+  "wordle": {
+    "date": "2026-10-31",
+    "answer": "YAHOO",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 155,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "CARNY",
+            "entropy": 4.46
+          },
+          {
+            "word": "MARON",
+            "entropy": 4.29
+          },
+          {
+            "word": "MANOR",
+            "entropy": 4.24
+          },
+          {
+            "word": "CARON",
+            "entropy": 4.24
+          },
+          {
+            "word": "CAIRN",
+            "entropy": 4.21
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NORMA",
+        "result": [
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 8,
+        "eliminatedPercentage": 94.8,
+        "topCandidates": [
+          {
+            "word": "WAHOO",
+            "entropy": 3.0
+          },
+          {
+            "word": "WACKO",
+            "entropy": 2.75
+          },
+          {
+            "word": "WAZOO",
+            "entropy": 2.75
+          },
+          {
+            "word": "KAZOO",
+            "entropy": 2.5
+          },
+          {
+            "word": "YAHOO",
+            "entropy": 2.5
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "WAHOO",
+        "result": [
+          {
+            "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 3.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 87.5,
+        "topCandidates": [
+          {
+            "word": "YAHOO",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "YAHOO",
+        "result": [
+          {
+            "letter": "Y",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "YAHOO",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

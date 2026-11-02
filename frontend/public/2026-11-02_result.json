@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-02",
+  "wordle": {
+    "date": "2026-11-02",
+    "answer": "SCOOT",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 22,
+        "eliminatedPercentage": 99.4,
+        "topCandidates": [
+          {
+            "word": "SHUNT",
+            "entropy": 3.19
+          },
+          {
+            "word": "SHOUT",
+            "entropy": 3.1
+          },
+          {
+            "word": "SHORT",
+            "entropy": 3.03
+          },
+          {
+            "word": "SNOUT",
+            "entropy": 2.93
+          },
+          {
+            "word": "SHIRT",
+            "entropy": 2.92
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CHURN",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.88,
+        "remainingWords": 1,
+        "eliminatedPercentage": 95.5,
+        "topCandidates": [
+          {
+            "word": "SCOOT",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SCOOT",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "SCOOT",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

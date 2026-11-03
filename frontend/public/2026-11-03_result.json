@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-03",
+  "wordle": {
+    "date": "2026-11-03",
+    "answer": "POUCH",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.56,
+        "remainingWords": 6,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "MUCHO",
+            "entropy": 2.25
+          },
+          {
+            "word": "MOUCH",
+            "entropy": 2.25
+          },
+          {
+            "word": "POUCH",
+            "entropy": 2.25
+          },
+          {
+            "word": "VOUCH",
+            "entropy": 2.25
+          },
+          {
+            "word": "BUCKO",
+            "entropy": 1.79
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "MUCHO",
+        "result": [
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "H",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 2.25,
+        "remainingWords": 2,
+        "eliminatedPercentage": 66.7,
+        "topCandidates": [
+          {
+            "word": "POUCH",
+            "entropy": 1.0
+          },
+          {
+            "word": "VOUCH",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "POUCH",
+        "result": [
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "U",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "H",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "POUCH",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

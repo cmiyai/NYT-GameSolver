@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-05",
+  "wordle": {
+    "date": "2026-11-05",
+    "answer": "PARCH",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 155,
+        "eliminatedPercentage": 95.6,
+        "topCandidates": [
+          {
+            "word": "CARNY",
+            "entropy": 4.46
+          },
+          {
+            "word": "MARON",
+            "entropy": 4.29
+          },
+          {
+            "word": "MANOR",
+            "entropy": 4.24
+          },
+          {
+            "word": "CARON",
+            "entropy": 4.24
+          },
+          {
+            "word": "CAIRN",
+            "entropy": 4.21
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "NORMA",
+        "result": [
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "M",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 4.64,
+        "remainingWords": 8,
+        "eliminatedPercentage": 94.8,
+        "topCandidates": [
+          {
+            "word": "CARRY",
+            "entropy": 2.16
+          },
+          {
+            "word": "HARDY",
+            "entropy": 2.16
+          },
+          {
+            "word": "HARPY",
+            "entropy": 2.16
+          },
+          {
+            "word": "HARRY",
+            "entropy": 2.16
+          },
+          {
+            "word": "PARRY",
+            "entropy": 2.16
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "HARPY",
+        "result": [
+          {
+            "letter": "H",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.16,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

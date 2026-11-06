@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-06",
+  "wordle": {
+    "date": "2026-11-06",
+    "answer": "DRECK",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 6,
+        "eliminatedPercentage": 97.5,
+        "topCandidates": [
+          {
+            "word": "DECRY",
+            "entropy": 2.58
+          },
+          {
+            "word": "DERBY",
+            "entropy": 2.58
+          },
+          {
+            "word": "DERRY",
+            "entropy": 2.58
+          },
+          {
+            "word": "DEBBY",
+            "entropy": 1.92
+          },
+          {
+            "word": "DEMUR",
+            "entropy": 1.79
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "DECRY",
+        "result": [
+          {
+            "letter": "D",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "R",
+            "status": "present"
+          },
+          {
+            "letter": "Y",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 2.58,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

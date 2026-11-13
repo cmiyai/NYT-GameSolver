@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-13",
+  "wordle": {
+    "date": "2026-11-13",
+    "answer": "MOXIE",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 239,
+        "eliminatedPercentage": 93.2,
+        "topCandidates": [
+          {
+            "word": "DRONE",
+            "entropy": 5.36
+          },
+          {
+            "word": "CRONE",
+            "entropy": 5.14
+          },
+          {
+            "word": "DIRGE",
+            "entropy": 5.12
+          },
+          {
+            "word": "BORNE",
+            "entropy": 5.07
+          },
+          {
+            "word": "ERODE",
+            "entropy": 5.05
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DOING",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "G",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.15,
+        "remainingWords": 4,
+        "eliminatedPercentage": 98.3,
+        "topCandidates": [
+          {
+            "word": "MOVIE",
+            "entropy": 2.0
+          },
+          {
+            "word": "MOXIE",
+            "entropy": 2.0
+          },
+          {
+            "word": "HOMIE",
+            "entropy": 1.5
+          },
+          {
+            "word": "BOWIE",
+            "entropy": 0.81
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "MOVIE",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "V",
+            "status": "absent"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 75.0,
+        "topCandidates": [
+          {
+            "word": "MOXIE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "MOXIE",
+        "result": [
+          {
+            "letter": "M",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "X",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "MOXIE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

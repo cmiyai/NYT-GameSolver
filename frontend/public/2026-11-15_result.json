@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-15",
+  "wordle": {
+    "date": "2026-11-15",
+    "answer": "SNARK",
+    "totalTurns": 3,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 51,
+        "eliminatedPercentage": 98.5,
+        "topCandidates": [
+          {
+            "word": "SCAMP",
+            "entropy": 3.48
+          },
+          {
+            "word": "SWAMP",
+            "entropy": 3.44
+          },
+          {
+            "word": "SHANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPANK",
+            "entropy": 3.41
+          },
+          {
+            "word": "SPARK",
+            "entropy": 3.4
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PUNCH",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "U",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "H",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.96,
+        "remainingWords": 5,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "SWANK",
+            "entropy": 2.32
+          },
+          {
+            "word": "SKANK",
+            "entropy": 1.92
+          },
+          {
+            "word": "SNAKY",
+            "entropy": 1.92
+          },
+          {
+            "word": "SNAGS",
+            "entropy": 1.37
+          },
+          {
+            "word": "SWAIN",
+            "entropy": 1.37
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SWANK",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "W",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "present"
+          },
+          {
+            "letter": "K",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.32,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

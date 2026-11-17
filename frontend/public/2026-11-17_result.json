@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-17",
+  "wordle": {
+    "date": "2026-11-17",
+    "answer": "ROAST",
+    "totalTurns": 4,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 7,
+        "eliminatedPercentage": 99.8,
+        "topCandidates": [
+          {
+            "word": "BOAST",
+            "entropy": 2.13
+          },
+          {
+            "word": "COAST",
+            "entropy": 2.13
+          },
+          {
+            "word": "ROAST",
+            "entropy": 2.13
+          },
+          {
+            "word": "TOAST",
+            "entropy": 2.13
+          },
+          {
+            "word": "ASCOT",
+            "entropy": 1.84
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "BOAST",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 2.13,
+        "remainingWords": 3,
+        "eliminatedPercentage": 57.1,
+        "topCandidates": [
+          {
+            "word": "COAST",
+            "entropy": 0.92
+          },
+          {
+            "word": "ROAST",
+            "entropy": 0.92
+          },
+          {
+            "word": "TOAST",
+            "entropy": 0.92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "COAST",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.92,
+        "remainingWords": 2,
+        "eliminatedPercentage": 33.3,
+        "topCandidates": [
+          {
+            "word": "ROAST",
+            "entropy": 1.0
+          },
+          {
+            "word": "TOAST",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "ROAST",
+        "result": [
+          {
+            "letter": "R",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "ROAST",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-25",
+  "wordle": {
+    "date": "2026-11-25",
+    "answer": "SPICY",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 79,
+        "eliminatedPercentage": 97.7,
+        "topCandidates": [
+          {
+            "word": "SCION",
+            "entropy": 4.32
+          },
+          {
+            "word": "SPINY",
+            "entropy": 4.29
+          },
+          {
+            "word": "SPUNK",
+            "entropy": 4.27
+          },
+          {
+            "word": "SPORK",
+            "entropy": 4.09
+          },
+          {
+            "word": "SHINY",
+            "entropy": 4.06
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CORNY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "present"
+          },
+          {
+            "letter": "O",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 4.6,
+        "remainingWords": 2,
+        "eliminatedPercentage": 97.5,
+        "topCandidates": [
+          {
+            "word": "SPICY",
+            "entropy": 1.0
+          },
+          {
+            "word": "SUCKY",
+            "entropy": 1.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "SPICY",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "P",
+            "status": "correct"
+          },
+          {
+            "letter": "I",
+            "status": "correct"
+          },
+          {
+            "letter": "C",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "SPICY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

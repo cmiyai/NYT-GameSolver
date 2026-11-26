@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-26",
+  "wordle": {
+    "date": "2026-11-26",
+    "answer": "TENSE",
+    "totalTurns": 3,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "present"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 19,
+        "eliminatedPercentage": 99.5,
+        "topCandidates": [
+          {
+            "word": "DEETS",
+            "entropy": 3.68
+          },
+          {
+            "word": "DENTS",
+            "entropy": 3.58
+          },
+          {
+            "word": "BEETS",
+            "entropy": 3.43
+          },
+          {
+            "word": "DUETS",
+            "entropy": 3.39
+          },
+          {
+            "word": "GENTS",
+            "entropy": 3.18
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "DENTS",
+        "result": [
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "T",
+            "status": "present"
+          },
+          {
+            "letter": "S",
+            "status": "present"
+          }
+        ],
+        "entropyBits": 3.58,
+        "remainingWords": 1,
+        "eliminatedPercentage": 94.7,
+        "topCandidates": [
+          {
+            "word": "TENSE",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "TENSE",
+        "result": [
+          {
+            "letter": "T",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "correct"
+          },
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "E",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "TENSE",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-27",
+  "wordle": {
+    "date": "2026-11-27",
+    "answer": "SHEAF",
+    "totalTurns": 2,
+    "solved": false,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "correct"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "present"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 26,
+        "eliminatedPercentage": 99.3,
+        "topCandidates": [
+          {
+            "word": "SPARE",
+            "entropy": 3.37
+          },
+          {
+            "word": "SPAKE",
+            "entropy": 3.01
+          },
+          {
+            "word": "SHARE",
+            "entropy": 3.0
+          },
+          {
+            "word": "SNARE",
+            "entropy": 2.96
+          },
+          {
+            "word": "SPEAR",
+            "entropy": 2.89
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "PRANK",
+        "result": [
+          {
+            "letter": "P",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "present"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "K",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 3.58,
+        "remainingWords": 0,
+        "eliminatedPercentage": 100.0,
+        "topCandidates": []
+      }
+    ]
+  }
+}

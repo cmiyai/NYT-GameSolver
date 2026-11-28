@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-28",
+  "wordle": {
+    "date": "2026-11-28",
+    "answer": "WOOZY",
+    "totalTurns": 5,
+    "solved": true,
+    "initialPoolSize": 3500,
+    "algorithmName": "Information Entropy",
+    "steps": [
+      {
+        "turn": 1,
+        "guess": "SALET",
+        "result": [
+          {
+            "letter": "S",
+            "status": "absent"
+          },
+          {
+            "letter": "A",
+            "status": "absent"
+          },
+          {
+            "letter": "L",
+            "status": "absent"
+          },
+          {
+            "letter": "E",
+            "status": "absent"
+          },
+          {
+            "letter": "T",
+            "status": "absent"
+          }
+        ],
+        "entropyBits": 5.89,
+        "remainingWords": 343,
+        "eliminatedPercentage": 90.2,
+        "topCandidates": [
+          {
+            "word": "CRONY",
+            "entropy": 5.56
+          },
+          {
+            "word": "ROUND",
+            "entropy": 5.53
+          },
+          {
+            "word": "CORNY",
+            "entropy": 5.51
+          },
+          {
+            "word": "CHINO",
+            "entropy": 5.46
+          },
+          {
+            "word": "RHINO",
+            "entropy": 5.45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "guess": "CRONY",
+        "result": [
+          {
+            "letter": "C",
+            "status": "absent"
+          },
+          {
+            "letter": "R",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "N",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 5.56,
+        "remainingWords": 12,
+        "eliminatedPercentage": 96.5,
+        "topCandidates": [
+          {
+            "word": "DOOZY",
+            "entropy": 2.05
+          },
+          {
+            "word": "GOODY",
+            "entropy": 1.9
+          },
+          {
+            "word": "WOODY",
+            "entropy": 1.9
+          },
+          {
+            "word": "DOODY",
+            "entropy": 1.55
+          },
+          {
+            "word": "MOODY",
+            "entropy": 1.55
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "guess": "GOODY",
+        "result": [
+          {
+            "letter": "G",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "D",
+            "status": "absent"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.9,
+        "remainingWords": 6,
+        "eliminatedPercentage": 50.0,
+        "topCandidates": [
+          {
+            "word": "BOOZY",
+            "entropy": 1.79
+          },
+          {
+            "word": "BOOBY",
+            "entropy": 1.25
+          },
+          {
+            "word": "HOOKY",
+            "entropy": 1.25
+          },
+          {
+            "word": "KOOKY",
+            "entropy": 1.25
+          },
+          {
+            "word": "WOOZY",
+            "entropy": 1.25
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "guess": "BOOZY",
+        "result": [
+          {
+            "letter": "B",
+            "status": "absent"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "Z",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 1.79,
+        "remainingWords": 1,
+        "eliminatedPercentage": 83.3,
+        "topCandidates": [
+          {
+            "word": "WOOZY",
+            "entropy": 0.0
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "guess": "WOOZY",
+        "result": [
+          {
+            "letter": "W",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "O",
+            "status": "correct"
+          },
+          {
+            "letter": "Z",
+            "status": "correct"
+          },
+          {
+            "letter": "Y",
+            "status": "correct"
+          }
+        ],
+        "entropyBits": 0.0,
+        "remainingWords": 1,
+        "eliminatedPercentage": 0.0,
+        "topCandidates": [
+          {
+            "word": "WOOZY",
+            "entropy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}
